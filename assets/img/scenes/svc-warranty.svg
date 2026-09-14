@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 660" width="880" height="660" role="img" aria-label="svc-warranty">
+<title>svc-warranty</title>
+<defs>
+  <linearGradient id="bgu2ji0" x1="6%" y1="0%" x2="94%" y2="100%">
+    <stop offset="0%" stop-color="#353433"/><stop offset="100%" stop-color="#1E1D1C"/>
+  </linearGradient>
+  <radialGradient id="glu2ji0" cx="30%" cy="18%" r="66%">
+    <stop offset="0%" stop-color="#C8BFB2" stop-opacity=".30"/><stop offset="100%" stop-color="#C8BFB2" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="vgu2ji0" cx="50%" cy="46%" r="72%">
+    <stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".55"/>
+  </radialGradient>
+  <filter id="gru2ji0"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" seed="53"/>
+    <feColorMatrix type="saturate" values="0"/></filter>
+  <filter id="sfu2ji0" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="18"/></filter>
+  <linearGradient id="lg" x1="16%" y1="4%" x2="86%" y2="100%">
+    <stop offset="0%" stop-color="#857f78"/><stop offset="50%" stop-color="#5E564E"/><stop offset="100%" stop-color="#342f2b"/>
+  </linearGradient>
+  <linearGradient id="lg2" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#564f48"/><stop offset="100%" stop-color="#342f2b"/>
+  </linearGradient>
+  <linearGradient id="metal" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#EFEDE9"/><stop offset="40%" stop-color="#96948F"/>
+    <stop offset="64%" stop-color="#E0DDD8"/><stop offset="100%" stop-color="#7A7874"/>
+  </linearGradient>
+</defs>
+<style>svg{--dk:#342f2b;--st:#9e9a95;--bg2:#1E1D1C}</style>
+<rect width="880" height="660" fill="url(#bgu2ji0)"/>
+<rect width="880" height="660" fill="url(#glu2ji0)"/>
+
+
+
+<g transform="translate(440,330) scale(0.5961290322580646) translate(-400,-480)" opacity=".92">
+         <g filter="url(#sfu2ji0)" opacity=".45" transform="translate(10,18)">
+  <path d="M298 302 Q400 278 502 302 L520 620 Q520 646 494 646 L306 646 Q280 646 280 620 Z" fill="url(#lg)"/>
+  <path d="M302 300 L222 338 L182 578 L272 602 L302 396 Z" fill="url(#lg2)"/>
+  <path d="M498 300 L578 338 L618 578 L528 602 L498 396 Z" fill="url(#lg2)"/>
+  <path d="M344 290 L400 372 L456 290 L434 282 L400 336 L366 282 Z" fill="var(--dk)" opacity=".4"/>
+  <path d="M416 340 L422 638" stroke="url(#metal)" stroke-width="7" stroke-dasharray="5 4"/>
+  <rect x="286" y="604" width="228" height="34" fill="var(--dk)" opacity=".26"/>
+  <path d="M320 470 L372 462" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
+  <path d="M470 470 L448 466" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
+</g>
+         <g>
+  <path d="M298 302 Q400 278 502 302 L520 620 Q520 646 494 646 L306 646 Q280 646 280 620 Z" fill="url(#lg)"/>
+  <path d="M302 300 L222 338 L182 578 L272 602 L302 396 Z" fill="url(#lg2)"/>
+  <path d="M498 300 L578 338 L618 578 L528 602 L498 396 Z" fill="url(#lg2)"/>
+  <path d="M344 290 L400 372 L456 290 L434 282 L400 336 L366 282 Z" fill="var(--dk)" opacity=".4"/>
+  <path d="M416 340 L422 638" stroke="url(#metal)" stroke-width="7" stroke-dasharray="5 4"/>
+  <rect x="286" y="604" width="228" height="34" fill="var(--dk)" opacity=".26"/>
+  <path d="M320 470 L372 462" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
+  <path d="M470 470 L448 466" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
+</g>
+       </g>
+<rect width="880" height="660" filter="url(#gru2ji0)" opacity=".10" style="mix-blend-mode:overlay"/>
+<rect width="880" height="660" fill="url(#vgu2ji0)"/>
+</svg>

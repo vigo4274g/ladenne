@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 930" width="800" height="930" role="img" aria-label="エンベロープ ミニジップウォレット シュリンクレザー／グレー">
+<title>エンベロープ ミニジップウォレット シュリンクレザー／グレー</title>
+<defs>
+  <radialGradient id="plate" cx="50%" cy="34%" r="78%">
+    <stop offset="0%" stop-color="#1A1A1D"/><stop offset="100%" stop-color="#111113"/>
+  </radialGradient>
+  <linearGradient id="lg" x1="18%" y1="4%" x2="86%" y2="100%">
+    <stop offset="0%" stop-color="#9d9a97"/><stop offset="46%" stop-color="#7A7772"/><stop offset="100%" stop-color="#474542"/>
+  </linearGradient>
+  <linearGradient id="lg2" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#73706b"/><stop offset="100%" stop-color="#474542"/>
+  </linearGradient>
+  <linearGradient id="metal" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F2F0EC"/><stop offset="38%" stop-color="#9C9A95"/>
+    <stop offset="62%" stop-color="#E4E1DC"/><stop offset="100%" stop-color="#7E7C78"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="50%" cy="26%" r="52%">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity=".10"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="shadow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#000" stop-opacity=".55"/><stop offset="100%" stop-color="#000" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="soft" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<style>svg{--dk:#474542;--st:#b6b4b1;--bg2:#111113}</style>
+<rect width="800" height="930" fill="url(#plate)"/>
+<rect width="800" height="930" fill="url(#glow)"/>
+<ellipse cx="402" cy="768" rx="232" ry="36" fill="url(#shadow)"/>
+<g transform="translate(400,480) scale(1.2) translate(-400,-480)">
+  <g filter="url(#soft)" opacity=".42" transform="translate(7,14)">
+  <path d="M206 392 h388 q16 0 16 16 v184 q0 16 -16 16 h-388 q-16 0 -16 -16 v-184 q0 -16 16 -16 z" fill="url(#lg)"/>
+  <path d="M206 392 h388 q16 0 16 16 v18 h-420 v-18 q0 -16 16 -16 z" fill="var(--dk)" opacity=".24"/>
+  <path d="M194 418 L606 418" stroke="url(#metal)" stroke-width="7" stroke-dasharray="4 4"/>
+  <path d="M300 608 L400 500 L500 608 Z" fill="var(--dk)" opacity=".12"/>
+  <path d="M212 592 L588 592" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
+  <path d="M594 408 h22 v24 h-22 z" fill="url(#metal)"/></g>
+  <g>
+  <path d="M206 392 h388 q16 0 16 16 v184 q0 16 -16 16 h-388 q-16 0 -16 -16 v-184 q0 -16 16 -16 z" fill="url(#lg)"/>
+  <path d="M206 392 h388 q16 0 16 16 v18 h-420 v-18 q0 -16 16 -16 z" fill="var(--dk)" opacity=".24"/>
+  <path d="M194 418 L606 418" stroke="url(#metal)" stroke-width="7" stroke-dasharray="4 4"/>
+  <path d="M300 608 L400 500 L500 608 Z" fill="var(--dk)" opacity=".12"/>
+  <path d="M212 592 L588 592" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
+  <path d="M594 408 h22 v24 h-22 z" fill="url(#metal)"/></g>
+  <g opacity=".18" style="mix-blend-mode:screen">
+  <path d="M206 392 h388 q16 0 16 16 v184 q0 16 -16 16 h-388 q-16 0 -16 -16 v-184 q0 -16 16 -16 z" fill="none" stroke="#ffffff" stroke-width="1" opacity=".5"/>
+  <path d="M206 392 h388 q16 0 16 16 v18 h-420 v-18 q0 -16 16 -16 z" fill="var(--dk)" opacity=".24"/>
+  <path d="M194 418 L606 418" stroke="url(#metal)" stroke-width="7" stroke-dasharray="4 4"/>
+  <path d="M300 608 L400 500 L500 608 Z" fill="var(--dk)" opacity=".12"/>
+  <path d="M212 592 L588 592" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
+  <path d="M594 408 h22 v24 h-22 z" fill="url(#metal)"/></g>
+</g>
+<text x="400" y="866" text-anchor="middle" font-family="Optima, Georgia, serif" font-size="15"
+      letter-spacing="7" fill="#ffffff" opacity=".17">LADENNE</text>
+</svg>

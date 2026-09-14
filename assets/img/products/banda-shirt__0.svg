@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 930" width="800" height="930" role="img" aria-label="バンダ バンドカラーシャツ／アイボリー">
+<title>バンダ バンドカラーシャツ／アイボリー</title>
+<defs>
+  <radialGradient id="plate" cx="50%" cy="34%" r="78%">
+    <stop offset="0%" stop-color="#1A1A1D"/><stop offset="100%" stop-color="#111113"/>
+  </radialGradient>
+  <linearGradient id="lg" x1="18%" y1="4%" x2="86%" y2="100%">
+    <stop offset="0%" stop-color="#ede8df"/><stop offset="46%" stop-color="#E6E0D4"/><stop offset="100%" stop-color="#85827b"/>
+  </linearGradient>
+  <linearGradient id="lg2" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#d8d3c7"/><stop offset="100%" stop-color="#85827b"/>
+  </linearGradient>
+  <linearGradient id="metal" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F2F0EC"/><stop offset="38%" stop-color="#9C9A95"/>
+    <stop offset="62%" stop-color="#E4E1DC"/><stop offset="100%" stop-color="#7E7C78"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="50%" cy="26%" r="52%">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity=".10"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="shadow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#000" stop-opacity=".55"/><stop offset="100%" stop-color="#000" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="soft" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<style>svg{--dk:#85827b;--st:#f1eee7;--bg2:#111113}</style>
+<rect width="800" height="930" fill="url(#plate)"/>
+<rect width="800" height="930" fill="url(#glow)"/>
+<ellipse cx="402" cy="768" rx="232" ry="36" fill="url(#shadow)"/>
+<g transform="translate(400,480) scale(1.2) translate(-400,-480)">
+  <g filter="url(#soft)" opacity=".42" transform="translate(7,14)">
+  <path d="M312 308 Q400 286 488 308 L500 636 Q500 658 478 658 L322 658 Q300 658 300 636 Z" fill="url(#lg)"/>
+  <path d="M318 306 L252 342 L224 586 L300 604 L318 400 Z" fill="url(#lg2)"/>
+  <path d="M482 306 L548 342 L576 586 L500 604 L482 400 Z" fill="url(#lg2)"/>
+  <path d="M362 298 q38 -18 76 0 l-6 24 q-32 -14 -64 0 Z" fill="var(--dk)" opacity=".3"/>
+  <rect x="388" y="318" width="24" height="330" fill="var(--dk)" opacity=".16"/>
+  <path d="M400 330 L400 646" stroke="var(--st)" stroke-width="1.6" stroke-dasharray="6 6" opacity=".5"/>
+  <circle cx="400" cy="380" r="5" fill="var(--st)" opacity=".7"/>
+  <circle cx="400" cy="470" r="5" fill="var(--st)" opacity=".7"/>
+  <circle cx="400" cy="560" r="5" fill="var(--st)" opacity=".7"/></g>
+  <g>
+  <path d="M312 308 Q400 286 488 308 L500 636 Q500 658 478 658 L322 658 Q300 658 300 636 Z" fill="url(#lg)"/>
+  <path d="M318 306 L252 342 L224 586 L300 604 L318 400 Z" fill="url(#lg2)"/>
+  <path d="M482 306 L548 342 L576 586 L500 604 L482 400 Z" fill="url(#lg2)"/>
+  <path d="M362 298 q38 -18 76 0 l-6 24 q-32 -14 -64 0 Z" fill="var(--dk)" opacity=".3"/>
+  <rect x="388" y="318" width="24" height="330" fill="var(--dk)" opacity=".16"/>
+  <path d="M400 330 L400 646" stroke="var(--st)" stroke-width="1.6" stroke-dasharray="6 6" opacity=".5"/>
+  <circle cx="400" cy="380" r="5" fill="var(--st)" opacity=".7"/>
+  <circle cx="400" cy="470" r="5" fill="var(--st)" opacity=".7"/>
+  <circle cx="400" cy="560" r="5" fill="var(--st)" opacity=".7"/></g>
+  <g opacity=".18" style="mix-blend-mode:screen">
+  <path d="M312 308 Q400 286 488 308 L500 636 Q500 658 478 658 L322 658 Q300 658 300 636 Z" fill="none" stroke="#ffffff" stroke-width="1" opacity=".5"/>
+  <path d="M318 306 L252 342 L224 586 L300 604 L318 400 Z" fill="url(#lg2)"/>
+  <path d="M482 306 L548 342 L576 586 L500 604 L482 400 Z" fill="url(#lg2)"/>
+  <path d="M362 298 q38 -18 76 0 l-6 24 q-32 -14 -64 0 Z" fill="var(--dk)" opacity=".3"/>
+  <rect x="388" y="318" width="24" height="330" fill="var(--dk)" opacity=".16"/>
+  <path d="M400 330 L400 646" stroke="var(--st)" stroke-width="1.6" stroke-dasharray="6 6" opacity=".5"/>
+  <circle cx="400" cy="380" r="5" fill="var(--st)" opacity=".7"/>
+  <circle cx="400" cy="470" r="5" fill="var(--st)" opacity=".7"/>
+  <circle cx="400" cy="560" r="5" fill="var(--st)" opacity=".7"/></g>
+</g>
+<text x="400" y="866" text-anchor="middle" font-family="Optima, Georgia, serif" font-size="15"
+      letter-spacing="7" fill="#ffffff" opacity=".17">LADENNE</text>
+</svg>

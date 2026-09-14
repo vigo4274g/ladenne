@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 930" width="800" height="930" role="img" aria-label="ロッカ トラッカージャケット レザー／キャメル">
+<title>ロッカ トラッカージャケット レザー／キャメル</title>
+<defs>
+  <radialGradient id="plate" cx="50%" cy="34%" r="78%">
+    <stop offset="0%" stop-color="#1A1A1D"/><stop offset="100%" stop-color="#111113"/>
+  </radialGradient>
+  <linearGradient id="lg" x1="18%" y1="4%" x2="86%" y2="100%">
+    <stop offset="0%" stop-color="#bf966e"/><stop offset="46%" stop-color="#A9713B"/><stop offset="100%" stop-color="#624222"/>
+  </linearGradient>
+  <linearGradient id="lg2" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#9f6a37"/><stop offset="100%" stop-color="#624222"/>
+  </linearGradient>
+  <linearGradient id="metal" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F2F0EC"/><stop offset="38%" stop-color="#9C9A95"/>
+    <stop offset="62%" stop-color="#E4E1DC"/><stop offset="100%" stop-color="#7E7C78"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="50%" cy="26%" r="52%">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity=".10"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="shadow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#000" stop-opacity=".55"/><stop offset="100%" stop-color="#000" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="soft" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<style>svg{--dk:#624222;--st:#d0b193;--bg2:#111113}</style>
+<rect width="800" height="930" fill="url(#plate)"/>
+<rect width="800" height="930" fill="url(#glow)"/>
+<ellipse cx="402" cy="768" rx="232" ry="36" fill="url(#shadow)"/>
+<g transform="translate(400,480) scale(1.2) translate(-400,-480)">
+  <g filter="url(#soft)" opacity=".42" transform="translate(7,14)">
+  <path d="M298 300 h204 l18 316 q0 24 -24 24 h-192 q-24 0 -24 -24 Z" fill="url(#lg)"/>
+  <path d="M302 300 L224 336 L192 568 L276 590 L302 396 Z" fill="url(#lg2)"/>
+  <path d="M498 300 L576 336 L608 568 L524 590 L498 396 Z" fill="url(#lg2)"/>
+  <path d="M348 290 L400 342 L452 290 L430 282 L400 314 L370 282 Z" fill="var(--dk)" opacity=".38"/>
+  <path d="M400 320 L400 638" stroke="var(--dk)" stroke-width="3" opacity=".45"/>
+  <path d="M330 392 h52 v56 h-52 z" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
+  <path d="M418 392 h52 v56 h-52 z" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
+  <rect x="290" y="602" width="220" height="34" fill="var(--dk)" opacity=".22"/>
+  <path d="M394 400 h12 v12 h-12 z M394 470 h12 v12 h-12 z M394 540 h12 v12 h-12 z" fill="url(#metal)"/></g>
+  <g>
+  <path d="M298 300 h204 l18 316 q0 24 -24 24 h-192 q-24 0 -24 -24 Z" fill="url(#lg)"/>
+  <path d="M302 300 L224 336 L192 568 L276 590 L302 396 Z" fill="url(#lg2)"/>
+  <path d="M498 300 L576 336 L608 568 L524 590 L498 396 Z" fill="url(#lg2)"/>
+  <path d="M348 290 L400 342 L452 290 L430 282 L400 314 L370 282 Z" fill="var(--dk)" opacity=".38"/>
+  <path d="M400 320 L400 638" stroke="var(--dk)" stroke-width="3" opacity=".45"/>
+  <path d="M330 392 h52 v56 h-52 z" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
+  <path d="M418 392 h52 v56 h-52 z" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
+  <rect x="290" y="602" width="220" height="34" fill="var(--dk)" opacity=".22"/>
+  <path d="M394 400 h12 v12 h-12 z M394 470 h12 v12 h-12 z M394 540 h12 v12 h-12 z" fill="url(#metal)"/></g>
+  <g opacity=".18" style="mix-blend-mode:screen">
+  <path d="M298 300 h204 l18 316 q0 24 -24 24 h-192 q-24 0 -24 -24 Z" fill="none" stroke="#ffffff" stroke-width="1" opacity=".5"/>
+  <path d="M302 300 L224 336 L192 568 L276 590 L302 396 Z" fill="url(#lg2)"/>
+  <path d="M498 300 L576 336 L608 568 L524 590 L498 396 Z" fill="url(#lg2)"/>
+  <path d="M348 290 L400 342 L452 290 L430 282 L400 314 L370 282 Z" fill="var(--dk)" opacity=".38"/>
+  <path d="M400 320 L400 638" stroke="var(--dk)" stroke-width="3" opacity=".45"/>
+  <path d="M330 392 h52 v56 h-52 z" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
+  <path d="M418 392 h52 v56 h-52 z" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
+  <rect x="290" y="602" width="220" height="34" fill="var(--dk)" opacity=".22"/>
+  <path d="M394 400 h12 v12 h-12 z M394 470 h12 v12 h-12 z M394 540 h12 v12 h-12 z" fill="url(#metal)"/></g>
+</g>
+<text x="400" y="866" text-anchor="middle" font-family="Optima, Georgia, serif" font-size="15"
+      letter-spacing="7" fill="#ffffff" opacity=".17">LADENNE</text>
+</svg>
