@@ -2,7 +2,7 @@
 <title>ヘビーウェイト プルオーバーパーカー／ブラック</title>
 <defs>
   <radialGradient id="plate" cx="50%" cy="34%" r="78%">
-    <stop offset="0%" stop-color="#34343A"/><stop offset="100%" stop-color="#232328"/>
+    <stop offset="0%" stop-color="#F4F1EB"/><stop offset="100%" stop-color="#E7E3DB"/>
   </radialGradient>
   <linearGradient id="lg" x1="18%" y1="4%" x2="86%" y2="100%">
     <stop offset="0%" stop-color="#565654"/><stop offset="46%" stop-color="#1B1A18"/><stop offset="100%" stop-color="#100f0e"/>
@@ -15,14 +15,14 @@
     <stop offset="62%" stop-color="#E4E1DC"/><stop offset="100%" stop-color="#7E7C78"/>
   </linearGradient>
   <radialGradient id="glow" cx="50%" cy="26%" r="52%">
-    <stop offset="0%" stop-color="#ffffff" stop-opacity=".10"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset="0%" stop-color="#ffffff" stop-opacity=".55"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
   </radialGradient>
   <radialGradient id="shadow" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#000" stop-opacity=".55"/><stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    <stop offset="0%" stop-color="#000" stop-opacity=".20"/><stop offset="100%" stop-color="#000" stop-opacity="0"/>
   </radialGradient>
   <filter id="soft" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="12"/></filter>
 </defs>
-<style>svg{--dk:#100f0e;--st:#828180;--bg2:#232328}</style>
+<style>svg{--dk:#100f0e;--st:#828180;--bg2:#E7E3DB}</style>
 <rect width="800" height="930" fill="url(#plate)"/>
 <rect width="800" height="930" fill="url(#glow)"/>
 <ellipse cx="402" cy="768" rx="232" ry="36" fill="url(#shadow)"/>
@@ -53,9 +53,9 @@
   <rect x="286" y="606" width="228" height="34" fill="var(--st)" opacity=".2"/>
   <rect x="196" y="576" width="80" height="28" fill="var(--st)" opacity=".2"/>
   <rect x="524" y="576" width="80" height="28" fill="var(--st)" opacity=".2"/></g>
-  <g opacity=".18" style="mix-blend-mode:screen">
+  <g opacity=".14" style="mix-blend-mode:multiply">
   <path d="M338 340 Q400 232 462 340 Q400 312 338 340 Z" fill="url(#lg2)"/>
-  <path d="M302 330 Q400 306 498 330 L514 618 Q514 642 490 642 L310 642 Q286 642 286 618 Z" fill="none" stroke="#ffffff" stroke-width="1" opacity=".5"/>
+  <path d="M302 330 Q400 306 498 330 L514 618 Q514 642 490 642 L310 642 Q286 642 286 618 Z" fill="none" stroke="#000000" stroke-width="1" opacity=".5"/>
   <path d="M308 328 L228 368 L192 588 L282 610 L308 424 Z" fill="url(#lg2)"/>
   <path d="M492 328 L572 368 L608 588 L518 610 L492 424 Z" fill="url(#lg2)"/>
   <path d="M350 336 Q400 382 450 336" fill="none" stroke="var(--dk)" stroke-width="7" opacity=".45"/>
@@ -67,6 +67,6 @@
   <rect x="196" y="576" width="80" height="28" fill="var(--st)" opacity=".2"/>
   <rect x="524" y="576" width="80" height="28" fill="var(--st)" opacity=".2"/></g>
 </g>
-<text x="400" y="866" text-anchor="middle" font-family="Optima, Georgia, serif" font-size="15"
-      letter-spacing="7" fill="#ffffff" opacity=".17">LADENNE</text>
+<text x="400" y="866" text-anchor="middle" font-family="Futura, Avenir, sans-serif" font-size="15"
+      letter-spacing="7" fill="#24221E" opacity=".22">LADENNE</text>
 </svg>

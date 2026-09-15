@@ -2,7 +2,7 @@
 <title>ワイドチノ／フォレスト</title>
 <defs>
   <radialGradient id="plate" cx="50%" cy="34%" r="78%">
-    <stop offset="0%" stop-color="#2A2A30"/><stop offset="100%" stop-color="#1B1B20"/>
+    <stop offset="0%" stop-color="#F4F1EB"/><stop offset="100%" stop-color="#E7E3DB"/>
   </radialGradient>
   <linearGradient id="lg" x1="18%" y1="4%" x2="86%" y2="100%">
     <stop offset="0%" stop-color="#6d796d"/><stop offset="46%" stop-color="#3A4A3A"/><stop offset="100%" stop-color="#222b22"/>
@@ -15,14 +15,14 @@
     <stop offset="62%" stop-color="#E4E1DC"/><stop offset="100%" stop-color="#7E7C78"/>
   </linearGradient>
   <radialGradient id="glow" cx="50%" cy="26%" r="52%">
-    <stop offset="0%" stop-color="#ffffff" stop-opacity=".10"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset="0%" stop-color="#ffffff" stop-opacity=".55"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
   </radialGradient>
   <radialGradient id="shadow" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#000" stop-opacity=".55"/><stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    <stop offset="0%" stop-color="#000" stop-opacity=".20"/><stop offset="100%" stop-color="#000" stop-opacity="0"/>
   </radialGradient>
   <filter id="soft" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="12"/></filter>
 </defs>
-<style>svg{--dk:#222b22;--st:#939b93;--bg2:#1B1B20}</style>
+<style>svg{--dk:#222b22;--st:#939b93;--bg2:#E7E3DB}</style>
 <rect width="800" height="930" fill="url(#plate)"/>
 <rect width="800" height="930" fill="url(#glow)"/>
 <ellipse cx="402" cy="768" rx="232" ry="36" fill="url(#shadow)"/>
@@ -41,14 +41,14 @@
   <path d="M348 360 L342 700" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
   <path d="M460 360 L466 700" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
   <path d="M394 306 h20 v16 h-20 z" fill="url(#metal)"/></g>
-  <g opacity=".18" style="mix-blend-mode:screen">
+  <g opacity=".14" style="mix-blend-mode:multiply">
   <path d="M324 300 h152 v44 h-152 z" fill="url(#lg2)"/>
-  <path d="M324 340 L336 726 Q336 744 356 744 L388 744 Q400 744 400 726 L404 470 L408 726 Q408 744 420 744 L452 744 Q472 744 472 726 L484 340 Z" fill="none" stroke="#ffffff" stroke-width="1" opacity=".5"/>
+  <path d="M324 340 L336 726 Q336 744 356 744 L388 744 Q400 744 400 726 L404 470 L408 726 Q408 744 420 744 L452 744 Q472 744 472 726 L484 340 Z" fill="none" stroke="#000000" stroke-width="1" opacity=".5"/>
   <path d="M404 348 L404 470" stroke="var(--dk)" stroke-width="3" opacity=".35"/>
   <path d="M348 360 L342 700" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
   <path d="M460 360 L466 700" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
   <path d="M394 306 h20 v16 h-20 z" fill="url(#metal)"/></g>
 </g>
-<text x="400" y="866" text-anchor="middle" font-family="Optima, Georgia, serif" font-size="15"
-      letter-spacing="7" fill="#ffffff" opacity=".17">LADENNE</text>
+<text x="400" y="866" text-anchor="middle" font-family="Futura, Avenir, sans-serif" font-size="15"
+      letter-spacing="7" fill="#24221E" opacity=".22">LADENNE</text>
 </svg>

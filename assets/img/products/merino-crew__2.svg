@@ -2,7 +2,7 @@
 <title>メリノウール クルーネックニット／フォレスト</title>
 <defs>
   <radialGradient id="plate" cx="50%" cy="34%" r="78%">
-    <stop offset="0%" stop-color="#2A2A30"/><stop offset="100%" stop-color="#1B1B20"/>
+    <stop offset="0%" stop-color="#F4F1EB"/><stop offset="100%" stop-color="#E7E3DB"/>
   </radialGradient>
   <linearGradient id="lg" x1="18%" y1="4%" x2="86%" y2="100%">
     <stop offset="0%" stop-color="#6d796d"/><stop offset="46%" stop-color="#3A4A3A"/><stop offset="100%" stop-color="#222b22"/>
@@ -15,14 +15,14 @@
     <stop offset="62%" stop-color="#E4E1DC"/><stop offset="100%" stop-color="#7E7C78"/>
   </linearGradient>
   <radialGradient id="glow" cx="50%" cy="26%" r="52%">
-    <stop offset="0%" stop-color="#ffffff" stop-opacity=".10"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset="0%" stop-color="#ffffff" stop-opacity=".55"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
   </radialGradient>
   <radialGradient id="shadow" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#000" stop-opacity=".55"/><stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    <stop offset="0%" stop-color="#000" stop-opacity=".20"/><stop offset="100%" stop-color="#000" stop-opacity="0"/>
   </radialGradient>
   <filter id="soft" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="12"/></filter>
 </defs>
-<style>svg{--dk:#222b22;--st:#939b93;--bg2:#1B1B20}</style>
+<style>svg{--dk:#222b22;--st:#939b93;--bg2:#E7E3DB}</style>
 <rect width="800" height="930" fill="url(#plate)"/>
 <rect width="800" height="930" fill="url(#glow)"/>
 <ellipse cx="402" cy="768" rx="232" ry="36" fill="url(#shadow)"/>
@@ -45,8 +45,8 @@
   <rect x="294" y="604" width="212" height="34" fill="var(--st)" opacity=".18"/>
   <path d="M330 350 v250 M360 350 v250 M390 350 v250 M420 350 v250 M450 350 v250 M480 350 v250"
         stroke="var(--st)" stroke-width="1.4" opacity=".2"/></g>
-  <g opacity=".18" style="mix-blend-mode:screen">
-  <path d="M302 322 Q400 298 498 322 L512 620 Q512 642 490 642 L310 642 Q288 642 288 620 Z" fill="none" stroke="#ffffff" stroke-width="1" opacity=".5"/>
+  <g opacity=".14" style="mix-blend-mode:multiply">
+  <path d="M302 322 Q400 298 498 322 L512 620 Q512 642 490 642 L310 642 Q288 642 288 620 Z" fill="none" stroke="#000000" stroke-width="1" opacity=".5"/>
   <path d="M308 320 L232 360 L198 580 L282 602 L308 416 Z" fill="url(#lg2)"/>
   <path d="M492 320 L568 360 L602 580 L518 602 L492 416 Z" fill="url(#lg2)"/>
   <ellipse cx="400" cy="318" rx="48" ry="19" fill="var(--dk)" opacity=".34"/>
@@ -55,6 +55,6 @@
   <path d="M330 350 v250 M360 350 v250 M390 350 v250 M420 350 v250 M450 350 v250 M480 350 v250"
         stroke="var(--st)" stroke-width="1.4" opacity=".2"/></g>
 </g>
-<text x="400" y="866" text-anchor="middle" font-family="Optima, Georgia, serif" font-size="15"
-      letter-spacing="7" fill="#ffffff" opacity=".17">LADENNE</text>
+<text x="400" y="866" text-anchor="middle" font-family="Futura, Avenir, sans-serif" font-size="15"
+      letter-spacing="7" fill="#24221E" opacity=".22">LADENNE</text>
 </svg>

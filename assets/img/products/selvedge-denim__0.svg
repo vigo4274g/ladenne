@@ -2,7 +2,7 @@
 <title>セルビッジ デニム／ネイビー</title>
 <defs>
   <radialGradient id="plate" cx="50%" cy="34%" r="78%">
-    <stop offset="0%" stop-color="#2A2A30"/><stop offset="100%" stop-color="#1B1B20"/>
+    <stop offset="0%" stop-color="#F4F1EB"/><stop offset="100%" stop-color="#E7E3DB"/>
   </radialGradient>
   <linearGradient id="lg" x1="18%" y1="4%" x2="86%" y2="100%">
     <stop offset="0%" stop-color="#5c6679"/><stop offset="46%" stop-color="#23304A"/><stop offset="100%" stop-color="#141c2b"/>
@@ -15,14 +15,14 @@
     <stop offset="62%" stop-color="#E4E1DC"/><stop offset="100%" stop-color="#7E7C78"/>
   </linearGradient>
   <radialGradient id="glow" cx="50%" cy="26%" r="52%">
-    <stop offset="0%" stop-color="#ffffff" stop-opacity=".10"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    <stop offset="0%" stop-color="#ffffff" stop-opacity=".55"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
   </radialGradient>
   <radialGradient id="shadow" cx="50%" cy="50%" r="50%">
-    <stop offset="0%" stop-color="#000" stop-opacity=".55"/><stop offset="100%" stop-color="#000" stop-opacity="0"/>
+    <stop offset="0%" stop-color="#000" stop-opacity=".20"/><stop offset="100%" stop-color="#000" stop-opacity="0"/>
   </radialGradient>
   <filter id="soft" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="12"/></filter>
 </defs>
-<style>svg{--dk:#141c2b;--st:#868d9b;--bg2:#1B1B20}</style>
+<style>svg{--dk:#141c2b;--st:#868d9b;--bg2:#E7E3DB}</style>
 <rect width="800" height="930" fill="url(#plate)"/>
 <rect width="800" height="930" fill="url(#glow)"/>
 <ellipse cx="402" cy="768" rx="232" ry="36" fill="url(#shadow)"/>
@@ -45,9 +45,9 @@
   <path d="M462 362 L468 706" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
   <path d="M322 312 h156" stroke="var(--st)" stroke-width="2" stroke-dasharray="6 5" opacity=".6"/>
   <path d="M392 308 h18 v16 h-18 z M330 356 h14 v10 h-14 z" fill="url(#metal)"/></g>
-  <g opacity=".18" style="mix-blend-mode:screen">
+  <g opacity=".14" style="mix-blend-mode:multiply">
   <path d="M322 300 h156 v46 h-156 z" fill="url(#lg2)"/>
-  <path d="M322 342 L334 728 Q334 746 354 746 L388 746 Q400 746 400 728 L404 468 L408 728 Q408 746 420 746 L454 746 Q474 746 474 728 L486 342 Z" fill="none" stroke="#ffffff" stroke-width="1" opacity=".5"/>
+  <path d="M322 342 L334 728 Q334 746 354 746 L388 746 Q400 746 400 728 L404 468 L408 728 Q408 746 420 746 L454 746 Q474 746 474 728 L486 342 Z" fill="none" stroke="#000000" stroke-width="1" opacity=".5"/>
   <path d="M334 352 q38 4 46 44 M474 352 q-38 4 -46 44" fill="none" stroke="var(--st)" stroke-width="2.4" stroke-dasharray="6 5" opacity=".7"/>
   <path d="M404 350 L404 468" stroke="var(--dk)" stroke-width="3" opacity=".35"/>
   <path d="M346 362 L340 706" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
@@ -55,6 +55,6 @@
   <path d="M322 312 h156" stroke="var(--st)" stroke-width="2" stroke-dasharray="6 5" opacity=".6"/>
   <path d="M392 308 h18 v16 h-18 z M330 356 h14 v10 h-14 z" fill="url(#metal)"/></g>
 </g>
-<text x="400" y="866" text-anchor="middle" font-family="Optima, Georgia, serif" font-size="15"
-      letter-spacing="7" fill="#ffffff" opacity=".17">LADENNE</text>
+<text x="400" y="866" text-anchor="middle" font-family="Futura, Avenir, sans-serif" font-size="15"
+      letter-spacing="7" fill="#24221E" opacity=".22">LADENNE</text>
 </svg>
