@@ -3,17 +3,24 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>カート｜LADENNE.</title>
-<meta name="description" content="ショッピングカート">
+<title>LADENNEについて｜LADENNE.</title>
+<meta name="description" content="LADENNE.のブランドストーリー、革、クラフツマンシップ。">
 <meta name="robots" content="noindex,nofollow">
-<meta property="og:title" content="カート｜LADENNE.">
-<meta property="og:description" content="ショッピングカート">
+<meta property="og:title" content="LADENNEについて｜LADENNE.">
+<meta property="og:description" content="LADENNE.のブランドストーリー、革、クラフツマンシップ。">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="LADENNE.">
-<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="icon" href="../assets/img/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
+
+<div class="shopbar">
+  <a class="shopbar__home" href="index.html" aria-label="入口にもどる">LADENNE<small>.</small></a>
+  <nav class="shopbar__tabs" aria-label="お店を選ぶ">
+    <a href="../craft/index.html" class="is-on" aria-current="page">CRAFT<span>革小物</span></a><a href="../apparel/index.html" class="">APPAREL<span>服</span></a>
+  </nav>
+</div>
 <div class="announce">
   <button class="announce__nav" data-ann="prev" aria-label="前のお知らせ">‹</button>
   <div class="announce__track">
@@ -31,7 +38,7 @@
       <button class="icon-btn" data-open="#search-drawer" aria-label="検索"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></button>
     </div>
     <a class="logo" href="index.html" aria-label="LADENNE ホーム">
-      <img class="logo__img" src="assets/img/logo.png" alt="LADENNE"
+      <img class="logo__img" src="../assets/img/logo.png" alt="LADENNE"
            onerror="var s=this.nextElementSibling;this.remove();if(s)s.hidden=false">
       <span class="logo__text" hidden>LADENNE<small>.</small></span>
    </a>
@@ -50,24 +57,7 @@
           
             <div>
               <div class="mega__title">今おすすめ</div>
-              <a href="collection.html?c=new">新作一覧</a><a href="collection.html?c=autumn">オータム コレクション</a><a href="collection.html?c=popular">人気ランキング</a><a href="gift.html">ギフトに選ばれている品</a>
-            </div>
-        </div>
-      </li><li class="gnav__item">
-        <a class="gnav__link" href="collection.html?c=apparel">服</a>
-        <div class="mega mega--wide">
-          
-            <div>
-              <div class="mega__title">アウター</div>
-              <a href="collection.html?c=outer">シングルライダース</a><a href="collection.html?c=outer">ダブルライダース</a><a href="collection.html?c=outer">トラッカージャケット</a><a href="collection.html?c=outer">ブルゾン</a><a href="collection.html?c=outer">コート</a>
-            </div>
-            <div>
-              <div class="mega__title">トップス</div>
-              <a href="collection.html?c=tops">シャツ</a><a href="collection.html?c=tops">ニット</a><a href="collection.html?c=tops">タートルネック</a><a href="collection.html?c=tops">カットソー</a>
-            </div>
-            <div>
-              <div class="mega__title">ボトムス</div>
-              <a href="collection.html?c=bottoms">レザートラウザーズ</a><a href="collection.html?c=bottoms">スラックス</a><a href="collection.html?c=bottoms">デニム</a><a href="collection.html?c=apparel">服をすべて見る</a>
+              <a href="collection.html?c=new">新作一覧</a><a href="collection.html?c=popular">人気ランキング</a><a href="collection.html?c=autumn">オータム コレクション</a><a href="gift.html">ギフトに選ばれている品</a>
             </div>
         </div>
       </li><li class="gnav__item">
@@ -133,7 +123,7 @@
 
   <div class="header__search-sp">
     <form class="search-pill" action="collection.html" method="get" role="search">
-      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><input type="search" name="q" placeholder="キーワードで検索（例：ライダース）" aria-label="検索">
+      <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><input type="search" name="q" placeholder="キーワードで検索（例：長財布）" aria-label="検索">
     </form>
   </div>
 </header>
@@ -144,10 +134,11 @@
   <div class="drawer__panel">
     <div class="drawer__head"><strong>MENU</strong><button class="icon-btn" data-close aria-label="閉じる"><svg viewBox="0 0 24 24"><path d="M5 5l14 14M19 5L5 19"/></svg></button></div>
     <div class="drawer__body">
-      <a href="collection.html?c=pickup">Pick Up</a><a href="collection.html?c=apparel">服</a><a href="collection.html?c=wallet">財布・カードケース</a><a href="collection.html?c=leather">レザー小物</a><a href="collection.html?c=phone">スマホケース</a><a href="collection.html?c=travel">トラベル</a><a href="about.html">LADENNEの世界</a><a href="gift.html">ギフト</a><a href="support.html">保証・修理・サポート</a>
+      <a href="collection.html?c=pickup">Pick Up</a><a href="collection.html?c=wallet">財布・カードケース</a><a href="collection.html?c=leather">レザー小物</a><a href="collection.html?c=phone">スマホケース</a><a href="collection.html?c=travel">トラベル</a><a href="about.html">LADENNEの世界</a><a href="gift.html">ギフト</a><a href="support.html">保証・修理・サポート</a>
       <a href="guide.html">ショッピングガイド</a>
       <a href="faq.html">よくあるご質問</a>
       <a href="contact.html">お問い合わせ</a>
+      <a href="index.html" style="color:var(--fg-muted)">もう一つのお店を見る（APPAREL）</a>
     </div>
   </div>
 </div>
@@ -162,39 +153,77 @@
         <svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg><input type="search" name="q" placeholder="キーワードで検索" aria-label="検索">
       </form>
       <p style="margin:22px 0 10px;font-size:11px;letter-spacing:.14em;color:var(--fg-muted)">よく探されているもの</p>
-      <a href="collection.html?q=%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC%E3%82%B9">ライダース</a><a href="collection.html?q=%E3%83%8B%E3%83%83%E3%83%88">ニット</a><a href="collection.html?q=%E9%95%B7%E8%B2%A1%E5%B8%83">長財布</a><a href="collection.html?q=%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B1%E3%83%BC%E3%82%B9">カードケース</a><a href="collection.html?q=%E6%89%8B%E5%B8%B3%E5%9E%8B%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%B1%E3%83%BC%E3%82%B9">手帳型スマホケース</a>
+      <a href="collection.html?q=%E9%95%B7%E8%B2%A1%E5%B8%83">長財布</a><a href="collection.html?q=%E3%82%AB%E3%83%BC%E3%83%89%E3%82%B1%E3%83%BC%E3%82%B9">カードケース</a><a href="collection.html?q=%E3%82%AD%E3%83%BC%E3%82%B1%E3%83%BC%E3%82%B9">キーケース</a><a href="collection.html?q=%E6%89%8B%E5%B8%B3%E5%9E%8B%E3%82%B9%E3%83%9E%E3%83%9B%E3%82%B1%E3%83%BC%E3%82%B9">手帳型スマホケース</a><a href="collection.html?q=%E3%82%B3%E3%82%A4%E3%83%B3%E3%82%B1%E3%83%BC%E3%82%B9">コインケース</a>
     </div>
   </div>
 </div>
 <main>
-  <div class="wrap">
-    <div class="page-head"><span class="en">SHOPPING BAG</span><h1>カート</h1></div>
-    <div class="cart-grid" data-cart>
-      <div>
-        <div data-cart-rows></div>
-        <p data-cart-empty style="padding:48px 0;font-size:12px;color:var(--fg-muted);letter-spacing:.1em">カートに商品がありません。</p>
-        <p style="margin-top:32px"><a class="link-arrow" href="collection.html">買い物を続ける</a></p>
-      </div>
-      <aside class="summary">
-        <div class="row"><span>小計</span><span data-sub>¥0</span></div>
-        <div class="row"><span>送料</span><span data-ship>—</span></div>
-        <div class="row total"><span>合計（税込）</span><span data-total>¥0</span></div>
-        <button class="btn btn--primary btn--block" style="margin-top:26px" data-checkout>レジに進む</button>
-        <p style="margin-top:20px;font-size:10.5px;line-height:2;color:var(--fg-muted);letter-spacing:.04em">
-          税込5,000円以上で送料無料。<br>
-          ※ 決済は現在準備中です（本番はShopifyの決済画面に接続します）。
-        </p>
-      </aside>
+  <section class="cat-hero" style="height:520px">
+    <img src="../assets/img/photos/band-about.jpg" alt="">
+    <div class="wrap cat-hero__copy">
+      <span class="en">ABOUT</span>
+      <h1>LADENNE</h1>
+      <p>イタリア・フィレンツェの革を、日々の道具に。</p>
     </div>
-  </div>
-  <div style="height:78px"></div>
+  </section>
+
+  <section class="section"><div class="wrap"><div class="prose">
+    <h2 id="story">はじまり</h2>
+    <p>LADENNE は、フィレンツェ郊外の小さな工房と、日本の作り手が一緒に始めたブランドです。</p>
+    <p>きっかけは、10年使われた鞄の修理でした。持ち手は色が変わり、角は擦れていましたが、縫い目はどこも切れていなかった。直せば、まだ10年は使える。そういうものを新しく作りたいと思いました。</p>
+
+    <h2 id="leather">レザー</h2>
+    <p>使っているのは、トスカーナのタンナーで鞣した牛革です。</p>
+    <p><b>シュリンクレザー</b>は、熱と薬品で表面を縮ませて粒を立てた革です。傷が目立ちにくく、雨のしみも残りにくい。毎日持ち歩く道具に向いています。</p>
+    <p><b>スムースレザー</b>は、粒を潰して平らに仕上げた革です。最初は硬く、半年ほどで手になじみ、使うほどに艶が出ます。</p>
+
+    <h2 id="craft">クラフツマンシップ</h2>
+    <p>一着のレザージャケットに、120を超える工程があります。裁つ、漉く、貼る、縫う、磨く。</p>
+    <p>いちばん時間をかけるのは断面（コバ）です。染めて、磨いて、また染める。これを4回繰り返します。ここが荒いと1年で毛羽立ち、そこから傷みが広がります。</p>
+    <p>ロゴは型押しで、深さを0.3mmに抑えています。遠くから見えることより、指で触れて分かることを選びました。</p>
+
+    <h2 id="promise">約束していること</h2>
+    <p>・本革製品は、期限を設けずに修理をお受けします（ライフタイム保証）。<br>
+    ・アウターは、到着後7日以内であれば返送料をいただきません（試着のみ）。<br>
+    ・ギフトの箱・リボン・カード・刻印は無料です。</p>
+  </div></div></section>
+
+  <section class="section section--alt"><div class="wrap wrap--bleed-sp">
+    <div class="sec-head"><span class="en">BEST SELLERS</span><h2 class="spaced">人気商品</h2></div>
+    
+<div class="carousel carousel--sm">
+  <button class="carousel__btn" data-dir="prev" aria-label="前へ">‹</button>
+  <div class="carousel__track"><a class="pcard" href="product.html?id=belted-wallet" data-cat="wallet" data-sub2="" data-tags="popular">
+    <div class="pcard__media"><img src="../assets/img/products/belted-wallet__0.svg" alt="ベルテッド マルチウォレット シュリンクレザー" loading="lazy" decoding="async"></div>
+    <div class="pcard__name">ベルテッド マルチウォレット シュリンクレザー</div>
+    <div class="pcard__price">¥59,400</div>
+    <div class="swatches"><span class="sw" style="background:#5C2130" title="ボルドー"></span><span class="sw" style="background:#4A3A2E" title="チョコレート"></span><span class="sw" style="background:#23304A" title="ネイビー"></span><span class="sw" style="background:#9A8B79" title="エトープ"></span><span class="sw" style="background:#E6E0D4" title="アイボリー"></span><span class="sw" style="background:#C98894" title="ローズ"></span><span class="sw" style="background:#1B1A18" title="ブラック"></span></div>
+  </a><a class="pcard" href="product.html?id=small-wallet" data-cat="wallet" data-sub2="" data-tags="popular">
+    <div class="pcard__media"><img src="../assets/img/products/small-wallet__0.svg" alt="スモール ウォレット シュリンクレザー" loading="lazy" decoding="async"></div>
+    <div class="pcard__name">スモール ウォレット シュリンクレザー</div>
+    <div class="pcard__price">¥49,500</div>
+    <div class="swatches"><span class="sw" style="background:#1B1A18" title="ブラック"></span><span class="sw" style="background:#3A4A3A" title="フォレスト"></span><span class="sw" style="background:#A9713B" title="キャメル"></span><span class="sw" style="background:#2E8E9E" title="ブルーシアン"></span><span class="sw" style="background:#B9AFA2" title="グレージュ"></span></div>
+  </a><a class="pcard" href="product.html?id=envelope-card" data-cat="wallet" data-sub2="" data-tags="popular">
+    <div class="pcard__media"><img src="../assets/img/products/envelope-card__0.svg" alt="エンベロープ カードケース シュリンクレザー" loading="lazy" decoding="async"></div>
+    <div class="pcard__name">エンベロープ カードケース シュリンクレザー</div>
+    <div class="pcard__price">¥26,400</div>
+    <div class="swatches"><span class="sw" style="background:#B9AFA2" title="グレージュ"></span><span class="sw" style="background:#1B1A18" title="ブラック"></span><span class="sw" style="background:#B3312C" title="レッド"></span><span class="sw" style="background:#3A4A3A" title="フォレスト"></span><span class="sw" style="background:#D5A521" title="マスタード"></span><span class="sw" style="background:#C98894" title="ローズ"></span></div>
+  </a><a class="pcard" href="product.html?id=charm-heart" data-cat="leather" data-sub2="" data-tags="popular">
+    <div class="pcard__media"><img src="../assets/img/products/charm-heart__0.svg" alt="ハート キーホルダー シュリンクレザー" loading="lazy" decoding="async"></div>
+    <div class="pcard__name">ハート キーホルダー シュリンクレザー</div>
+    <div class="pcard__price">¥7,700</div>
+    <div class="swatches"><span class="sw" style="background:#B3312C" title="レッド"></span><span class="sw" style="background:#C98894" title="ローズ"></span><span class="sw" style="background:#1B1A18" title="ブラック"></span><span class="sw" style="background:#D5A521" title="マスタード"></span><span class="sw" style="background:#2E8E9E" title="ブルーシアン"></span></div>
+  </a></div>
+  <button class="carousel__btn" data-dir="next" aria-label="次へ">›</button>
+</div>
+  </div></section>
 </main>
 
 <footer class="footer">
   <div class="wrap">
     <div class="footer__h">商品一覧</div>
     <div class="footer__products">
-      <a href="collection.html?c=apparel">服</a><a href="collection.html?c=wallet">財布・カードケース</a><a href="collection.html?c=leather">レザー小物</a><a href="collection.html?c=phone">スマホケース</a><a href="collection.html?c=travel">トラベル</a>
+      <a href="collection.html?c=wallet">財布・カードケース</a><a href="collection.html?c=leather">レザー小物</a><a href="collection.html?c=phone">スマホケース</a><a href="collection.html?c=travel">トラベル</a>
       <a href="collection.html?c=new">新作</a>
       <a href="collection.html?c=popular">人気商品</a>
       <a href="gift.html">ギフト</a>
@@ -229,6 +258,10 @@
         <li><a href="contact.html">お問い合わせ</a></li>
         <li><a href="faq.html">よくあるご質問</a></li>
         <li><a href="care.html">お手入れ方法</a></li>
+      </ul></div>
+      <div><div class="footer__h">もう一つのお店</div><ul>
+        <li><a href="../apparel/index.html">APPAREL ─ 服</a></li>
+        <li><a href="../index.html">入口にもどる</a></li>
       </ul></div>
       <div><div class="footer__h">法人様向け</div><ul>
         <li><a href="gift.html#corporate">コーポレートギフト</a></li>
@@ -266,6 +299,6 @@
 </footer>
 
 <a class="fab" href="contact.html" aria-label="お問い合わせ"><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 1 1-3.2-6.4"/><path d="M21 4v5h-5"/><path d="M8 11h8M8 14.5h5"/></svg></a>
-<script src="assets/js/app.js" defer></script>
+<script src="../assets/js/app.js" defer></script>
 </body>
 </html>

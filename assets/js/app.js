@@ -107,7 +107,9 @@ document.addEventListener('click', () => $$('[data-fdrop]').forEach(d => d.class
    カート（ブラウザ内に保存するだけの仮実装。
    本番は Shopify のカートに置き換える）
    ========================================================= */
-const CART_KEY = 'ladenne.cart.v1';
+// 店舗ごとに別のカート（CRAFT と APPAREL は別のお店）
+const SHOP = location.pathname.includes('/apparel/') ? 'apparel' : 'craft';
+const CART_KEY = 'ladenne.cart.' + SHOP;
 const readCart  = () => { try { return JSON.parse(localStorage.getItem(CART_KEY)) || []; } catch { return []; } };
 const writeCart = c => { try { localStorage.setItem(CART_KEY, JSON.stringify(c)); } catch {} paintCount(); };
 function paintCount() {
