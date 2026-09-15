@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1002 639" width="1002" height="639" role="img" aria-label="news-4">
 <title>news-4</title>
 <defs>
-  <linearGradient id="bgmx9jc" x1="6%" y1="0%" x2="94%" y2="100%">
+  <linearGradient id="bgma55d" x1="6%" y1="0%" x2="94%" y2="100%">
     <stop offset="0%" stop-color="#23231F"/><stop offset="100%" stop-color="#0E0E0F"/>
   </linearGradient>
-  <radialGradient id="glmx9jc" cx="30%" cy="18%" r="66%">
+  <radialGradient id="glma55d" cx="30%" cy="18%" r="66%">
     <stop offset="0%" stop-color="#D3C3A6" stop-opacity=".30"/><stop offset="100%" stop-color="#D3C3A6" stop-opacity="0"/>
   </radialGradient>
-  <radialGradient id="vgmx9jc" cx="50%" cy="46%" r="72%">
+  <radialGradient id="vgma55d" cx="50%" cy="46%" r="72%">
     <stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".55"/>
   </radialGradient>
-  <filter id="grmx9jc"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" seed="52"/>
+  <filter id="grma55d"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" seed="6"/>
     <feColorMatrix type="saturate" values="0"/></filter>
-  <filter id="sfmx9jc" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="18"/></filter>
+  <filter id="sfma55d" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="18"/></filter>
   <linearGradient id="lg" x1="16%" y1="4%" x2="86%" y2="100%">
     <stop offset="0%" stop-color="#9b948b"/><stop offset="50%" stop-color="#7C7266"/><stop offset="100%" stop-color="#443f38"/>
   </linearGradient>
@@ -25,15 +25,15 @@
   </linearGradient>
 </defs>
 <style>svg{--dk:#443f38;--st:#b0aaa3;--bg2:#0E0E0F}</style>
-<rect width="1002" height="639" fill="url(#bgmx9jc)"/>
-<rect width="1002" height="639" fill="url(#glmx9jc)"/>
+<rect width="1002" height="639" fill="url(#bgma55d)"/>
+<rect width="1002" height="639" fill="url(#glma55d)"/>
 
 
   <path d="M120.24 0 L460.92 0 L180.35999999999999 639 L-160.32 639 Z" fill="#F0E4CC" fill-opacity=".05"/>
   <path d="M581.16 0 L701.4 0 L440.88 639 L320.64 639 Z" fill="#F0E4CC" fill-opacity=".035"/>
 
 <g transform="translate(501,345.06) scale(0.42600000000000005) translate(-400,-480)" opacity=".92">
-         <g filter="url(#sfmx9jc)" opacity=".45" transform="translate(10,18)">
+         <g filter="url(#sfma55d)" opacity=".45" transform="translate(10,18)">
   <path d="M292 316 h216 q18 0 18 18 v336 q0 18 -18 18 h-216 q-18 0 -18 -18 v-336 q0 -18 18 -18 z" fill="url(#lg)"/>
   <path d="M400 316 h108 q18 0 18 18 v336 q0 18 -18 18 h-108 z" fill="var(--dk)" opacity=".14"/>
   <path d="M292 336 L292 668" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
@@ -48,6 +48,6 @@
   <path d="M526 470 h44 q10 0 10 10 v44 q0 10 -10 10 h-44 z" fill="url(#lg2)"/>
   <path d="M552 492 h20 v20 h-20 z" fill="url(#metal)"/></g>
        </g>
-<rect width="1002" height="639" filter="url(#grmx9jc)" opacity=".10" style="mix-blend-mode:overlay"/>
-<rect width="1002" height="639" fill="url(#vgmx9jc)"/>
+<rect width="1002" height="639" filter="url(#grma55d)" opacity=".10" style="mix-blend-mode:overlay"/>
+<rect width="1002" height="639" fill="url(#vgma55d)"/>
 </svg>
