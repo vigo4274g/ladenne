@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 660" width="880" height="660" role="img" aria-label="svc-warranty">
 <title>svc-warranty</title>
 <defs>
-  <linearGradient id="bgoqbcv" x1="6%" y1="0%" x2="94%" y2="100%">
+  <linearGradient id="bg258qw" x1="6%" y1="0%" x2="94%" y2="100%">
     <stop offset="0%" stop-color="#efece5"/><stop offset="100%" stop-color="#EEEBE4"/>
   </linearGradient>
-  <radialGradient id="gloqbcv" cx="30%" cy="18%" r="66%">
+  <radialGradient id="gl258qw" cx="30%" cy="18%" r="66%">
     <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".30"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
   </radialGradient>
-  <radialGradient id="vgoqbcv" cx="50%" cy="46%" r="72%">
+  <radialGradient id="vg258qw" cx="50%" cy="46%" r="72%">
     <stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".10"/>
   </radialGradient>
-  <filter id="groqbcv"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" seed="38"/>
+  <filter id="gr258qw"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" seed="37"/>
     <feColorMatrix type="saturate" values="0"/></filter>
-  <filter id="sfoqbcv" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="18"/></filter>
+  <filter id="sf258qw" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="18"/></filter>
   <linearGradient id="lg" x1="16%" y1="4%" x2="86%" y2="100%">
     <stop offset="0%" stop-color="#c5bfb5"/><stop offset="50%" stop-color="#B3AB9D"/><stop offset="100%" stop-color="#625e56"/>
   </linearGradient>
@@ -25,13 +25,13 @@
   </linearGradient>
 </defs>
 <style>svg{--dk:#625e56;--st:#d1cdc4;--bg2:#EEEBE4}</style>
-<rect width="880" height="660" fill="url(#bgoqbcv)"/>
-<rect width="880" height="660" fill="url(#gloqbcv)"/>
+<rect width="880" height="660" fill="url(#bg258qw)"/>
+<rect width="880" height="660" fill="url(#gl258qw)"/>
 
 
 
 <g transform="translate(440,330) scale(0.5961290322580646) translate(-400,-480)" opacity=".92">
-         <g filter="url(#sfoqbcv)" opacity=".45" transform="translate(10,18)">
+         <g filter="url(#sf258qw)" opacity=".45" transform="translate(10,18)">
   <path d="M324 300 h152 v44 h-152 z" fill="url(#lg2)"/>
   <path d="M324 340 L336 726 Q336 744 356 744 L388 744 Q400 744 400 726 L404 470 L408 726 Q408 744 420 744 L452 744 Q472 744 472 726 L484 340 Z" fill="url(#lg)"/>
   <path d="M404 348 L404 470" stroke="var(--dk)" stroke-width="3" opacity=".35"/>
@@ -46,6 +46,6 @@
   <path d="M460 360 L466 700" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
   <path d="M394 306 h20 v16 h-20 z" fill="url(#metal)"/></g>
        </g>
-<rect width="880" height="660" filter="url(#groqbcv)" opacity=".06" style="mix-blend-mode:overlay"/>
-<rect width="880" height="660" fill="url(#vgoqbcv)"/>
+<rect width="880" height="660" filter="url(#gr258qw)" opacity=".06" style="mix-blend-mode:overlay"/>
+<rect width="880" height="660" fill="url(#vg258qw)"/>
 </svg>

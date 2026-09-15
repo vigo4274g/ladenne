@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 660" width="880" height="660" role="img" aria-label="svc-return">
 <title>svc-return</title>
 <defs>
-  <linearGradient id="bgbe32h" x1="6%" y1="0%" x2="94%" y2="100%">
+  <linearGradient id="bgnva25" x1="6%" y1="0%" x2="94%" y2="100%">
     <stop offset="0%" stop-color="#eeebe4"/><stop offset="100%" stop-color="#EDEAE3"/>
   </linearGradient>
-  <radialGradient id="glbe32h" cx="30%" cy="18%" r="66%">
+  <radialGradient id="glnva25" cx="30%" cy="18%" r="66%">
     <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".30"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
   </radialGradient>
-  <radialGradient id="vgbe32h" cx="50%" cy="46%" r="72%">
+  <radialGradient id="vgnva25" cx="50%" cy="46%" r="72%">
     <stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".10"/>
   </radialGradient>
-  <filter id="grbe32h"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" seed="71"/>
+  <filter id="grnva25"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" seed="49"/>
     <feColorMatrix type="saturate" values="0"/></filter>
-  <filter id="sfbe32h" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="18"/></filter>
+  <filter id="sfnva25" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="18"/></filter>
   <linearGradient id="lg" x1="16%" y1="4%" x2="86%" y2="100%">
     <stop offset="0%" stop-color="#beb8af"/><stop offset="50%" stop-color="#A9A296"/><stop offset="100%" stop-color="#5d5953"/>
   </linearGradient>
@@ -25,13 +25,13 @@
   </linearGradient>
 </defs>
 <style>svg{--dk:#5d5953;--st:#cbc7c0;--bg2:#EDEAE3}</style>
-<rect width="880" height="660" fill="url(#bgbe32h)"/>
-<rect width="880" height="660" fill="url(#glbe32h)"/>
+<rect width="880" height="660" fill="url(#bgnva25)"/>
+<rect width="880" height="660" fill="url(#glnva25)"/>
 
 
 
 <g transform="translate(440,330) scale(0.5961290322580646) translate(-400,-480)" opacity=".92">
-         <g filter="url(#sfbe32h)" opacity=".45" transform="translate(10,18)">
+         <g filter="url(#sfnva25)" opacity=".45" transform="translate(10,18)">
   <path d="M302 318 h196 l16 300 q0 24 -24 24 h-180 q-24 0 -24 -24 Z" fill="url(#lg)"/>
   <path d="M306 320 L230 358 L200 576 L284 598 L306 414 Z" fill="url(#lg2)"/>
   <path d="M494 320 L570 358 L600 576 L516 598 L494 414 Z" fill="url(#lg2)"/>
@@ -50,6 +50,6 @@
   <path d="M320 512 L370 508" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
   <path d="M480 512 L430 508" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/></g>
        </g>
-<rect width="880" height="660" filter="url(#grbe32h)" opacity=".06" style="mix-blend-mode:overlay"/>
-<rect width="880" height="660" fill="url(#vgbe32h)"/>
+<rect width="880" height="660" filter="url(#grnva25)" opacity=".06" style="mix-blend-mode:overlay"/>
+<rect width="880" height="660" fill="url(#vgnva25)"/>
 </svg>
