@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 660" width="880" height="660" role="img" aria-label="svc-return">
 <title>svc-return</title>
 <defs>
-  <linearGradient id="bg39qr8" x1="6%" y1="0%" x2="94%" y2="100%">
+  <linearGradient id="bgiz3ym" x1="6%" y1="0%" x2="94%" y2="100%">
     <stop offset="0%" stop-color="#383736"/><stop offset="100%" stop-color="#222120"/>
   </linearGradient>
-  <radialGradient id="gl39qr8" cx="30%" cy="18%" r="66%">
+  <radialGradient id="gliz3ym" cx="30%" cy="18%" r="66%">
     <stop offset="0%" stop-color="#C8BFB2" stop-opacity=".30"/><stop offset="100%" stop-color="#C8BFB2" stop-opacity="0"/>
   </radialGradient>
-  <radialGradient id="vg39qr8" cx="50%" cy="46%" r="72%">
+  <radialGradient id="vgiz3ym" cx="50%" cy="46%" r="72%">
     <stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".55"/>
   </radialGradient>
-  <filter id="gr39qr8"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" seed="35"/>
+  <filter id="griz3ym"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" seed="57"/>
     <feColorMatrix type="saturate" values="0"/></filter>
-  <filter id="sf39qr8" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="18"/></filter>
+  <filter id="sfiz3ym" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="18"/></filter>
   <linearGradient id="lg" x1="16%" y1="4%" x2="86%" y2="100%">
     <stop offset="0%" stop-color="#8f887f"/><stop offset="50%" stop-color="#6B6257"/><stop offset="100%" stop-color="#3b3630"/>
   </linearGradient>
@@ -25,31 +25,12 @@
   </linearGradient>
 </defs>
 <style>svg{--dk:#3b3630;--st:#a6a19a;--bg2:#222120}</style>
-<rect width="880" height="660" fill="url(#bg39qr8)"/>
-<rect width="880" height="660" fill="url(#gl39qr8)"/>
+<rect width="880" height="660" fill="url(#bgiz3ym)"/>
+<rect width="880" height="660" fill="url(#gliz3ym)"/>
 
 
 
-<g transform="translate(440,330) scale(0.5961290322580646) translate(-400,-480)" opacity=".92">
-         <g filter="url(#sf39qr8)" opacity=".45" transform="translate(10,18)">
-  <path d="M294 300 Q400 274 506 300 L526 742 Q526 766 502 766 L298 766 Q274 766 274 742 Z" fill="url(#lg)"/>
-  <path d="M300 300 L220 338 L184 664 L272 686 L300 404 Z" fill="url(#lg2)"/>
-  <path d="M500 300 L580 338 L616 664 L528 686 L500 404 Z" fill="url(#lg2)"/>
-  <path d="M342 288 L400 392 L458 288 L436 280 L400 344 L364 280 Z" fill="var(--dk)" opacity=".36"/>
-  <path d="M400 380 L400 758" stroke="var(--dk)" stroke-width="3" opacity=".42"/>
-  <path d="M320 520 L376 512" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
-  <path d="M480 520 L424 512" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
-  <path d="M386 418 h14 v14 h-14 z M386 500 h14 v14 h-14 z M386 582 h14 v14 h-14 z" fill="url(#metal)"/></g>
-         <g>
-  <path d="M294 300 Q400 274 506 300 L526 742 Q526 766 502 766 L298 766 Q274 766 274 742 Z" fill="url(#lg)"/>
-  <path d="M300 300 L220 338 L184 664 L272 686 L300 404 Z" fill="url(#lg2)"/>
-  <path d="M500 300 L580 338 L616 664 L528 686 L500 404 Z" fill="url(#lg2)"/>
-  <path d="M342 288 L400 392 L458 288 L436 280 L400 344 L364 280 Z" fill="var(--dk)" opacity=".36"/>
-  <path d="M400 380 L400 758" stroke="var(--dk)" stroke-width="3" opacity=".42"/>
-  <path d="M320 520 L376 512" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
-  <path d="M480 520 L424 512" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
-  <path d="M386 418 h14 v14 h-14 z M386 500 h14 v14 h-14 z M386 582 h14 v14 h-14 z" fill="url(#metal)"/></g>
-       </g>
-<rect width="880" height="660" filter="url(#gr39qr8)" opacity=".10" style="mix-blend-mode:overlay"/>
-<rect width="880" height="660" fill="url(#vg39qr8)"/>
+
+<rect width="880" height="660" filter="url(#griz3ym)" opacity=".10" style="mix-blend-mode:overlay"/>
+<rect width="880" height="660" fill="url(#vgiz3ym)"/>
 </svg>

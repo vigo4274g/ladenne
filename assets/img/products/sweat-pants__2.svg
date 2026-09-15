@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 930" width="800" height="930" role="img" aria-label="スウェットパンツ／アイボリー">
+<title>スウェットパンツ／アイボリー</title>
+<defs>
+  <radialGradient id="plate" cx="50%" cy="34%" r="78%">
+    <stop offset="0%" stop-color="#1A1A1D"/><stop offset="100%" stop-color="#111113"/>
+  </radialGradient>
+  <linearGradient id="lg" x1="18%" y1="4%" x2="86%" y2="100%">
+    <stop offset="0%" stop-color="#ede8df"/><stop offset="46%" stop-color="#E6E0D4"/><stop offset="100%" stop-color="#85827b"/>
+  </linearGradient>
+  <linearGradient id="lg2" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#d8d3c7"/><stop offset="100%" stop-color="#85827b"/>
+  </linearGradient>
+  <linearGradient id="metal" x1="0%" y1="0%" x2="100%" y2="100%">
+    <stop offset="0%" stop-color="#F2F0EC"/><stop offset="38%" stop-color="#9C9A95"/>
+    <stop offset="62%" stop-color="#E4E1DC"/><stop offset="100%" stop-color="#7E7C78"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="50%" cy="26%" r="52%">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity=".10"/><stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="shadow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#000" stop-opacity=".55"/><stop offset="100%" stop-color="#000" stop-opacity="0"/>
+  </radialGradient>
+  <filter id="soft" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="12"/></filter>
+</defs>
+<style>svg{--dk:#85827b;--st:#f1eee7;--bg2:#111113}</style>
+<rect width="800" height="930" fill="url(#plate)"/>
+<rect width="800" height="930" fill="url(#glow)"/>
+<ellipse cx="402" cy="768" rx="232" ry="36" fill="url(#shadow)"/>
+<g transform="translate(400,480) scale(1.2) translate(-400,-480)">
+  <g filter="url(#soft)" opacity=".42" transform="translate(7,14)">
+  <path d="M322 302 h156 v48 h-156 z" fill="url(#lg2)"/>
+  <path d="M322 346 L334 704 Q334 722 354 722 L390 722 Q402 722 402 704 L404 470 L406 704 Q406 722 418 722 L454 722 Q474 722 474 704 L486 346 Z" fill="url(#lg)"/>
+  <path d="M404 354 L404 470" stroke="var(--dk)" stroke-width="3" opacity=".3"/>
+  <path d="M374 314 L370 344 M434 314 L438 344" stroke="var(--st)" stroke-width="3.5" opacity=".75" stroke-linecap="round"/>
+  <rect x="330" y="694" width="76" height="32" fill="var(--st)" opacity=".22"/>
+  <rect x="402" y="694" width="76" height="32" fill="var(--st)" opacity=".22"/>
+  <path d="M346 364 L340 682" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
+  <path d="M462 364 L468 682" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/></g>
+  <g>
+  <path d="M322 302 h156 v48 h-156 z" fill="url(#lg2)"/>
+  <path d="M322 346 L334 704 Q334 722 354 722 L390 722 Q402 722 402 704 L404 470 L406 704 Q406 722 418 722 L454 722 Q474 722 474 704 L486 346 Z" fill="url(#lg)"/>
+  <path d="M404 354 L404 470" stroke="var(--dk)" stroke-width="3" opacity=".3"/>
+  <path d="M374 314 L370 344 M434 314 L438 344" stroke="var(--st)" stroke-width="3.5" opacity=".75" stroke-linecap="round"/>
+  <rect x="330" y="694" width="76" height="32" fill="var(--st)" opacity=".22"/>
+  <rect x="402" y="694" width="76" height="32" fill="var(--st)" opacity=".22"/>
+  <path d="M346 364 L340 682" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
+  <path d="M462 364 L468 682" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/></g>
+  <g opacity=".18" style="mix-blend-mode:screen">
+  <path d="M322 302 h156 v48 h-156 z" fill="url(#lg2)"/>
+  <path d="M322 346 L334 704 Q334 722 354 722 L390 722 Q402 722 402 704 L404 470 L406 704 Q406 722 418 722 L454 722 Q474 722 474 704 L486 346 Z" fill="none" stroke="#ffffff" stroke-width="1" opacity=".5"/>
+  <path d="M404 354 L404 470" stroke="var(--dk)" stroke-width="3" opacity=".3"/>
+  <path d="M374 314 L370 344 M434 314 L438 344" stroke="var(--st)" stroke-width="3.5" opacity=".75" stroke-linecap="round"/>
+  <rect x="330" y="694" width="76" height="32" fill="var(--st)" opacity=".22"/>
+  <rect x="402" y="694" width="76" height="32" fill="var(--st)" opacity=".22"/>
+  <path d="M346 364 L340 682" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
+  <path d="M462 364 L468 682" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/></g>
+</g>
+<text x="400" y="866" text-anchor="middle" font-family="Optima, Georgia, serif" font-size="15"
+      letter-spacing="7" fill="#ffffff" opacity=".17">LADENNE</text>
+</svg>

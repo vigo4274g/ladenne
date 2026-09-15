@@ -216,33 +216,29 @@ $('[data-add-to-cart]')?.addEventListener('click', function () {
   const params = new URLSearchParams(location.search);
   const c = params.get('c'), q = (params.get('q') || '').trim();
 
-  // カテゴリごとの 名前 / 説明 / ヘッダー写真 / 絞り込みの条件
-  const CAT = {
-    apparel: ['服',              '革を着る、という選択肢。<br>アウター、トップス、ボトムスまで一着ずつ',        'cat-apparel', p => p.cat === 'apparel'],
-    outer:   ['アウター',         'ライダース、ブルゾン、コート。<br>羽織るだけで背筋が伸びるもの',              'cat-outer',   p => p.sub2 === 'outer'],
-    tops:    ['トップス',         'シャツ、ニット、カットソー。<br>一枚で成立する、静かな服',                    'cat-tops',    p => p.sub2 === 'tops'],
-    bottoms: ['ボトムス',         'レザー、ウール、デニム。<br>上に合わせても負けない一本',                      'cat-bottoms', p => p.sub2 === 'bottoms'],
-    wallet:  ['財布・カードケース','毎日手に取るものだから、触り心地から選ぶ<br>上質なレザーの財布とカードケース','cat-wallet',  p => p.cat === 'wallet'],
-    leather: ['レザー小物',       '鍵、眼鏡、旅券。毎日手に取る道具だからこそ<br>触れたときに気持ちのいいものを','cat-leather', p => p.cat === 'leather'],
-    phone:   ['スマホケース',     '手のなかで一番長く触れる道具を、革で包む<br>手帳型・背面型・ストラップ付き',  'cat-phone',   p => p.cat === 'phone'],
-    travel:  ['トラベル',         '移動の時間を、静かで心地よいものに<br>スーツケースと旅の道具',                'cat-travel',  p => p.cat === 'travel'],
-    new:     ['新作',             '今シーズン入荷したもの',                                                     'cat-new',     p => p.tags.includes('new')],
-    popular: ['人気商品',         'よく選ばれているもの',                                                       'cat-popular', p => p.tags.includes('popular')],
-    pickup:  ['Pick Up',          '今おすすめしたいもの',                                                       'cat-pickup',  p => p.tags.includes('pickup')],
-    autumn:  ['オータム コレクション','深い色を揃えた、秋のひと揃い',                                            'cat-autumn',  () => true],
-    gift:    ['ギフト',           '贈りものに選ばれているもの',                                                 'cat-gift',    () => true],
-    care:    ['ケアアイテム',     '長く着るための道具',                                                         'cat-care',    () => true],
+  // カテゴリの名前と説明は、その店のものがHTMLに埋め込まれている（店ごとに違うため）
+  let CATCOPY = {};
+  try { CATCOPY = JSON.parse($('[data-cat-copy]')?.textContent || '{}'); } catch {}
+  const MATCH = {
+    pickup : p => p.tags.includes('pickup'),
+    new    : p => p.tags.includes('new'),
+    popular: p => p.tags.includes('popular'),
+    autumn : () => true,
+    gift   : () => true,
+    care   : () => true,
   };
+  const catFilter = key => MATCH[key] || (p => p.cat === key || p.sub2 === key);
+
   let filterFn = null;
-  if (c && CAT[c]) {
-    const [name, desc, img, fn] = CAT[c];
+  if (c && CATCOPY[c]) {
+    const [name, desc] = CATCOPY[c];
     $('[data-cat-name]').textContent = name;
     $('[data-cat-desc]').innerHTML = desc;
     $('[data-crumb]').textContent = name;
     const hero = $('[data-cat-hero]');
-    if (hero) hero.src = `assets/img/photos/${img}.jpg`;
+    if (hero) hero.src = `../assets/img/photos/${SHOP}/cat-${c}.jpg`;
     document.title = name + '｜LADENNE.';
-    filterFn = fn;
+    filterFn = catFilter(c);
   }
   if (q) {
     $('[data-cat-name]').textContent = `「${q}」の検索結果`;

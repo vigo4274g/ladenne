@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 660" width="880" height="660" role="img" aria-label="svc-custom">
 <title>svc-custom</title>
 <defs>
-  <linearGradient id="bgjfaip" x1="6%" y1="0%" x2="94%" y2="100%">
+  <linearGradient id="bgckjy7" x1="6%" y1="0%" x2="94%" y2="100%">
     <stop offset="0%" stop-color="#393432"/><stop offset="100%" stop-color="#231D1B"/>
   </linearGradient>
-  <radialGradient id="gljfaip" cx="30%" cy="18%" r="66%">
+  <radialGradient id="glckjy7" cx="30%" cy="18%" r="66%">
     <stop offset="0%" stop-color="#C8BFB2" stop-opacity=".30"/><stop offset="100%" stop-color="#C8BFB2" stop-opacity="0"/>
   </radialGradient>
-  <radialGradient id="vgjfaip" cx="50%" cy="46%" r="72%">
+  <radialGradient id="vgckjy7" cx="50%" cy="46%" r="72%">
     <stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".55"/>
   </radialGradient>
-  <filter id="grjfaip"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" seed="29"/>
+  <filter id="grckjy7"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" seed="1"/>
     <feColorMatrix type="saturate" values="0"/></filter>
-  <filter id="sfjfaip" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="18"/></filter>
+  <filter id="sfckjy7" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="18"/></filter>
   <linearGradient id="lg" x1="16%" y1="4%" x2="86%" y2="100%">
     <stop offset="0%" stop-color="#91827c"/><stop offset="50%" stop-color="#6E5A52"/><stop offset="100%" stop-color="#3d322d"/>
   </linearGradient>
@@ -25,13 +25,13 @@
   </linearGradient>
 </defs>
 <style>svg{--dk:#3d322d;--st:#a89c97;--bg2:#231D1B}</style>
-<rect width="880" height="660" fill="url(#bgjfaip)"/>
-<rect width="880" height="660" fill="url(#gljfaip)"/>
+<rect width="880" height="660" fill="url(#bgckjy7)"/>
+<rect width="880" height="660" fill="url(#glckjy7)"/>
 
 
 
 <g transform="translate(440,330) scale(0.5961290322580646) translate(-400,-480)" opacity=".92">
-         <g filter="url(#sfjfaip)" opacity=".45" transform="translate(10,18)">
+         <g filter="url(#sfckjy7)" opacity=".45" transform="translate(10,18)">
   <path d="M176 400 h448 q16 0 16 16 v168 q0 16 -16 16 h-448 q-16 0 -16 -16 v-168 q0 -16 16 -16 z" fill="url(#lg)"/>
   <path d="M178 418 L622 418" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
   <path d="M178 582 L622 582" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
@@ -42,6 +42,6 @@
   <path d="M178 582 L622 582" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
   <path d="M160 500 L640 500" stroke="var(--dk)" stroke-width="3" opacity=".25"/></g>
        </g>
-<rect width="880" height="660" filter="url(#grjfaip)" opacity=".10" style="mix-blend-mode:overlay"/>
-<rect width="880" height="660" fill="url(#vgjfaip)"/>
+<rect width="880" height="660" filter="url(#grckjy7)" opacity=".10" style="mix-blend-mode:overlay"/>
+<rect width="880" height="660" fill="url(#vgckjy7)"/>
 </svg>
