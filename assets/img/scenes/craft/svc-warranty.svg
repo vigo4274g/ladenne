@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 660" width="880" height="660" role="img" aria-label="svc-warranty">
 <title>svc-warranty</title>
 <defs>
-  <linearGradient id="bgmaeuf" x1="6%" y1="0%" x2="94%" y2="100%">
+  <linearGradient id="bgjio75" x1="6%" y1="0%" x2="94%" y2="100%">
     <stop offset="0%" stop-color="#383736"/><stop offset="100%" stop-color="#222120"/>
   </linearGradient>
-  <radialGradient id="glmaeuf" cx="30%" cy="18%" r="66%">
+  <radialGradient id="gljio75" cx="30%" cy="18%" r="66%">
     <stop offset="0%" stop-color="#D3C3A6" stop-opacity=".30"/><stop offset="100%" stop-color="#D3C3A6" stop-opacity="0"/>
   </radialGradient>
-  <radialGradient id="vgmaeuf" cx="50%" cy="46%" r="72%">
+  <radialGradient id="vgjio75" cx="50%" cy="46%" r="72%">
     <stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".55"/>
   </radialGradient>
-  <filter id="grmaeuf"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" seed="86"/>
+  <filter id="grjio75"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" seed="12"/>
     <feColorMatrix type="saturate" values="0"/></filter>
-  <filter id="sfmaeuf" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="18"/></filter>
+  <filter id="sfjio75" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="18"/></filter>
   <linearGradient id="lg" x1="16%" y1="4%" x2="86%" y2="100%">
     <stop offset="0%" stop-color="#8f887f"/><stop offset="50%" stop-color="#6B6257"/><stop offset="100%" stop-color="#3b3630"/>
   </linearGradient>
@@ -25,13 +25,13 @@
   </linearGradient>
 </defs>
 <style>svg{--dk:#3b3630;--st:#a6a19a;--bg2:#222120}</style>
-<rect width="880" height="660" fill="url(#bgmaeuf)"/>
-<rect width="880" height="660" fill="url(#glmaeuf)"/>
+<rect width="880" height="660" fill="url(#bgjio75)"/>
+<rect width="880" height="660" fill="url(#gljio75)"/>
 
 
 
 <g transform="translate(440,330) scale(0.5961290322580646) translate(-400,-480)" opacity=".92">
-         <g filter="url(#sfmaeuf)" opacity=".45" transform="translate(10,18)">
+         <g filter="url(#sfjio75)" opacity=".45" transform="translate(10,18)">
   <path d="M176 400 h448 q16 0 16 16 v168 q0 16 -16 16 h-448 q-16 0 -16 -16 v-168 q0 -16 16 -16 z" fill="url(#lg)"/>
   <path d="M178 418 L622 418" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
   <path d="M178 582 L622 582" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
@@ -42,6 +42,6 @@
   <path d="M178 582 L622 582" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
   <path d="M160 500 L640 500" stroke="var(--dk)" stroke-width="3" opacity=".25"/></g>
        </g>
-<rect width="880" height="660" filter="url(#grmaeuf)" opacity=".10" style="mix-blend-mode:overlay"/>
-<rect width="880" height="660" fill="url(#vgmaeuf)"/>
+<rect width="880" height="660" filter="url(#grjio75)" opacity=".10" style="mix-blend-mode:overlay"/>
+<rect width="880" height="660" fill="url(#vgjio75)"/>
 </svg>

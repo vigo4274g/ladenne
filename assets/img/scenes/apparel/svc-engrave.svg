@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 660" width="880" height="660" role="img" aria-label="svc-engrave">
 <title>svc-engrave</title>
 <defs>
-  <linearGradient id="bgmlrk1" x1="6%" y1="0%" x2="94%" y2="100%">
+  <linearGradient id="bggzyk4" x1="6%" y1="0%" x2="94%" y2="100%">
     <stop offset="0%" stop-color="#f2efe9"/><stop offset="100%" stop-color="#F1EEE8"/>
   </linearGradient>
-  <radialGradient id="glmlrk1" cx="30%" cy="18%" r="66%">
+  <radialGradient id="glgzyk4" cx="30%" cy="18%" r="66%">
     <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".30"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
   </radialGradient>
-  <radialGradient id="vgmlrk1" cx="50%" cy="46%" r="72%">
+  <radialGradient id="vggzyk4" cx="50%" cy="46%" r="72%">
     <stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".10"/>
   </radialGradient>
-  <filter id="grmlrk1"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" seed="59"/>
+  <filter id="grgzyk4"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" seed="62"/>
     <feColorMatrix type="saturate" values="0"/></filter>
-  <filter id="sfmlrk1" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="18"/></filter>
+  <filter id="sfgzyk4" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="18"/></filter>
   <linearGradient id="lg" x1="16%" y1="4%" x2="86%" y2="100%">
     <stop offset="0%" stop-color="#d4cec4"/><stop offset="50%" stop-color="#C6BFB2"/><stop offset="100%" stop-color="#6d6962"/>
   </linearGradient>
@@ -25,13 +25,13 @@
   </linearGradient>
 </defs>
 <style>svg{--dk:#6d6962;--st:#ddd9d1;--bg2:#F1EEE8}</style>
-<rect width="880" height="660" fill="url(#bgmlrk1)"/>
-<rect width="880" height="660" fill="url(#glmlrk1)"/>
+<rect width="880" height="660" fill="url(#bggzyk4)"/>
+<rect width="880" height="660" fill="url(#glgzyk4)"/>
 
 
 
 <g transform="translate(440,330) scale(0.5961290322580646) translate(-400,-480)" opacity=".92">
-         <g filter="url(#sfmlrk1)" opacity=".45" transform="translate(10,18)">
+         <g filter="url(#sfgzyk4)" opacity=".45" transform="translate(10,18)">
   <path d="M314 324 Q400 300 486 324 L496 628 Q496 648 476 648 L324 648 Q304 648 304 628 Z" fill="url(#lg)"/>
   <path d="M316 322 L242 356 L214 448 L296 476 L316 400 Z" fill="url(#lg2)"/>
   <path d="M484 322 L558 356 L586 448 L504 476 L484 400 Z" fill="url(#lg2)"/>
@@ -50,6 +50,6 @@
   <path d="M578 452 L506 470" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/>
   <path d="M306 634 L494 634" fill="none" stroke="var(--st)" stroke-width="2" stroke-dasharray="7 6" stroke-linecap="round" opacity=".55"/></g>
        </g>
-<rect width="880" height="660" filter="url(#grmlrk1)" opacity=".06" style="mix-blend-mode:overlay"/>
-<rect width="880" height="660" fill="url(#vgmlrk1)"/>
+<rect width="880" height="660" filter="url(#grgzyk4)" opacity=".06" style="mix-blend-mode:overlay"/>
+<rect width="880" height="660" fill="url(#vggzyk4)"/>
 </svg>

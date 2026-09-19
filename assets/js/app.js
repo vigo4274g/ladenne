@@ -180,31 +180,151 @@ $('[data-add-to-cart]')?.addEventListener('click', function () {
 })();
 
 /* =========================================================
-   商品ページ：?id= で商品を差し替え／カラー選択
+   更新される項目（写真・値段・在庫）の受け口
+   ---------------------------------------------------------
+   今は assets/data/products-<店>.json を読んでいる。
+   本番で管理画面（microCMS）や Shopify に繋ぐときは、
+   FEED_URL を変えて、返す形をこの JSON と同じにするだけでよい。
+     { slug, name, price, sale, stock:'in'|'low'|'out', images:[...] }
+   JS や通信が失敗しても、HTML には最初から正しい中身が出ている。
    ========================================================= */
-(() => {
+const IN_SHOP = /\/(craft|apparel)\//.test(location.pathname);
+const ASSETS  = IN_SHOP ? '../' : '';
+const FEED_URL = ASSETS + 'assets/data/products-' + SHOP + '.json';
+
+const STOCK_LABEL = { low:'残りわずか', out:'SOLD OUT' };
+const priceHTML = p => p.sale && p.sale < p.price
+  ? `<s>${yen(p.price)}</s><em data-price>${yen(p.sale)}</em>`
+  : `<span data-price>${yen(p.price)}</span>`;
+const badgeHTML = p =>
+    p.stock === 'out' ? '<span class="badge badge--out">SOLD OUT</span>'
+  : p.sale            ? '<span class="badge badge--sale">SALE</span>'
+  : p.stock === 'low' ? '<span class="badge badge--low">残りわずか</span>'
+  : (p.tags || []).includes('new') ? '<span class="badge">New</span>' : '';
+
+/* 一覧・トップのカードに反映する */
+function paintCards(db) {
+  $$('.pcard[data-slug]').forEach(card => {
+    const p = db[card.dataset.slug];
+    if (!p) return;
+    card.dataset.stock = p.stock;
+    card.classList.toggle('is-soldout', p.stock === 'out');
+    const slot = card.querySelector('[data-price-slot]');
+    if (slot) slot.innerHTML = priceHTML(p);
+    const media = card.querySelector('.pcard__media');
+    if (media) {
+      media.querySelector('.badge')?.remove();
+      const b = badgeHTML(p);
+      if (b) media.insertAdjacentHTML('afterbegin', b);
+      if (p.photo) media.querySelector('img').src = ASSETS + p.photo;
+    }
+  });
+}
+
+/* =========================================================
+   商品ページ：?id= でその商品を出す／カラー・サイズ選択
+   ========================================================= */
+const productPage = (() => {
   const page = $('[data-product-page]');
-  if (!page) return;
-  let list = [];
-  try { list = JSON.parse(page.dataset.images || '[]'); } catch {}
+  if (!page) return null;
+
+  let DB = {};
+  try { (JSON.parse($('[data-products]')?.textContent || '[]')).forEach(p => DB[p.slug] = p); } catch {}
+
+  const wanted = new URLSearchParams(location.search).get('id');
+  let cur = (wanted && DB[wanted]) ? DB[wanted] : DB[page.dataset.slug];
+  let imgs = [];
+
   const main = $('[data-main-img]');
-  $$('.swatch').forEach(sw => sw.addEventListener('click', () => {
-    $$('.swatch').forEach(s => s.classList.remove('is-on'));
-    sw.classList.add('is-on');
-    const n = $('[data-colorname]'); if (n) n.textContent = sw.dataset.name || '';
-    const i = Number(sw.dataset.i);
-    if (main && list[i]) { main.style.opacity = '0'; setTimeout(() => { main.src = list[i]; main.style.opacity = ''; }, 140); }
-  }));
-  // サムネイルを押してもメインが変わる
-  $$('.pdp__thumbs img').forEach(t => t.addEventListener('click', () => {
-    if (main) main.src = t.getAttribute('src');
-  }));
-  // サイズ
-  $$('[data-sizes] .size').forEach(b => b.addEventListener('click', () => {
-    $$('[data-sizes] .size').forEach(x => x.classList.toggle('is-on', x === b));
-    const n = $('[data-sizename]'); if (n) n.textContent = b.dataset.size;
-  }));
+
+  function render(p) {
+    if (!p) return;
+    cur  = p;
+    imgs = (p.images || []).map(x => ASSETS + x);
+    if (p.photo) imgs = [ASSETS + p.photo, ...imgs];
+
+    $('[data-sku]').textContent   = p.id;
+    $('[data-title]').textContent = p.name;
+    const sub = $('.pdp__sub'); if (sub) sub.textContent = p.sub || '';
+    document.title = p.name + '｜LADENNE.';
+
+    const slot = $('[data-price-slot]');
+    if (slot) slot.innerHTML = priceHTML(p) + '<small>税込</small>';
+
+    // カラー見本を作り直す
+    const row = $('[data-swatches]');
+    if (row) {
+      row.innerHTML = (p.colors || []).map(([n, hex], i) =>
+        `<button class="swatch ${i === 0 ? 'is-on' : ''}" style="background:${hex}" data-name="${n}" data-i="${i}" aria-label="${n}"></button>`).join('');
+      const cn = $('[data-colorname]');
+      if (cn) cn.textContent = p.colors?.[0]?.[0] || '';
+    }
+
+    // 写真
+    if (main && imgs[0]) main.src = imgs[0];
+    const th = $('.pdp__thumbs');
+    if (th) th.innerHTML = imgs.map(src => `<img src="${src}" alt="${p.name}" loading="lazy">`).join('');
+
+    // 在庫
+    const note = $('[data-stock-note]');
+    const cta  = $('[data-add-to-cart]');
+    const out  = p.stock === 'out';
+    if (note) {
+      note.textContent = STOCK_LABEL[p.stock] ? (out ? '申し訳ありません。ただいま品切れです。' : '残りわずかです。') : '';
+      note.hidden = !STOCK_LABEL[p.stock];
+      note.classList.toggle('is-out', out);
+    }
+    if (cta) {
+      cta.disabled = out;
+      cta.textContent = out ? 'SOLD OUT' : 'カートに追加する';
+    }
+    $('[data-ship]')?.toggleAttribute('hidden', out);
+
+    // 商品詳細・サイズ・素材もその商品のものにする
+    const det = $('[data-detail]');
+    if (det && p.detail) det.innerHTML = p.detail.map((x, i) => `<p${i ? ' style="margin-top:14px"' : ''}>${x}</p>`).join('');
+    const sp = $('[data-spec]');
+    if (sp && p.spec) sp.innerHTML = p.spec.map(([k, v]) => `<tr><th>${k}</th><td>${v}</td></tr>`).join('');
+  }
+
+  render(cur);
+
+  // 作り直しても効くように、押した場所で判断する
+  page.addEventListener('click', e => {
+    const sw = e.target.closest('.swatch');
+    if (sw) {
+      $$('.swatch').forEach(s => s.classList.toggle('is-on', s === sw));
+      const n = $('[data-colorname]'); if (n) n.textContent = sw.dataset.name || '';
+      const i = Number(sw.dataset.i);
+      if (main && imgs[i]) { main.style.opacity = '0'; setTimeout(() => { main.src = imgs[i]; main.style.opacity = ''; }, 140); }
+      return;
+    }
+    const th = e.target.closest('.pdp__thumbs img');
+    if (th && main) { main.src = th.getAttribute('src'); return; }
+    const sz = e.target.closest('[data-sizes] .size');
+    if (sz) {
+      $$('[data-sizes] .size').forEach(x => x.classList.toggle('is-on', x === sz));
+      const n = $('[data-sizename]'); if (n) n.textContent = sz.dataset.size;
+    }
+  });
+
+  return { render, db: DB, get cur() { return cur; } };
 })();
+
+/* 最新の在庫・値段を取りに行く（無くても表示は壊れない） */
+if (IN_SHOP) {
+  fetch(FEED_URL, {cache:'no-cache'})
+    .then(r => r.ok ? r.json() : null)
+    .then(list => {
+      if (!Array.isArray(list)) return;
+      const db = {};
+      list.forEach(p => db[p.slug] = p);
+      paintCards(db);
+      if (productPage && db[productPage.cur?.slug]) productPage.render(db[productPage.cur.slug]);
+      document.dispatchEvent(new CustomEvent('feed', {detail: db}));
+    })
+    .catch(() => {});
+}
 
 /* =========================================================
    一覧ページ：?c= / ?q= で絞り込み・並び替え・列数
@@ -258,16 +378,25 @@ $('[data-add-to-cart]')?.addEventListener('click', function () {
         const meta = {cat: card.dataset.cat, sub2: card.dataset.sub2, tags: (card.dataset.tags || '').split(' ')};
         ok = filterFn(meta);
       }
+      // 在庫で絞る（何も選んでいなければ全部出す）
+      const want = $$('input[name="stock"]:checked').map(i => i.value);
+      if (ok && want.length) {
+        const st = card.dataset.stock || 'in';
+        ok = (want.includes('在庫あり') && st === 'in') || (want.includes('残りわずか') && st === 'low');
+      }
       ok ? (show(card), n++) : hide(card);
     });
     $('[data-count]').textContent = n;
   };
   apply();
+  $$('input[name="stock"]').forEach(b => b.addEventListener('change', apply));
+  // 最新の在庫が届いたら絞り込みをやり直す
+  document.addEventListener('feed', apply);
 
   // 並び替え
   $$('input[name="sort"]').forEach(r => r.addEventListener('change', () => {
     const v = r.value;
-    const price = el => Number(el.querySelector('.pcard__price').textContent.replace(/[^\d]/g, ''));
+    const price = el => { const q = el.querySelector('.pcard__price em') || el.querySelector('.pcard__price'); return Number(q.textContent.replace(/[^\d]/g, '')); };
     const list = cards.slice();
     if (v === '価格の安い順') list.sort((a, b) => price(a) - price(b));
     else if (v === '価格の高い順') list.sort((a, b) => price(b) - price(a));

@@ -318,6 +318,17 @@ p{margin:0;}
   background:rgba(237,235,231,.92);color:#0A0A0B;font-size:9.5px;letter-spacing:.24em;text-indent:.24em;
 }
 .badge--sale{background:var(--sale);color:#fff;}
+/* ── 在庫の状態（クライアントさんが管理画面から切り替える） ── */
+[hidden]{display:none !important;}
+.badge--out{background:#1A1A1D;color:#EDEBE7;}
+.badge--low{background:#45423C;color:#F2F0EC;}
+.pcard.is-soldout .pcard__media img{opacity:.42;filter:grayscale(.35);}
+.pcard.is-soldout .pcard__name,
+.pcard.is-soldout .pcard__price{color:var(--fg-subdued);}
+.pcard.is-soldout:hover .pcard__media img{transform:none;}
+.stocknote{margin:18px 0 0;font-size:12px;letter-spacing:.06em;color:var(--fg-subdued);}
+.stocknote.is-out{color:var(--sale);}
+.pdp__cta[disabled]{opacity:.45;cursor:not-allowed;pointer-events:none;}
 .pcard__name{margin-top:18px;font-size:12px;line-height:1.7;letter-spacing:.06em;color:var(--fg-subdued);}
 .pcard:hover .pcard__name{color:var(--fg);}
 .pcard__price{margin-top:8px;font-size:12px;letter-spacing:.08em;}
@@ -780,6 +791,8 @@ body.shop--apparel .footer__nl input{border-radius:999px 0 0 999px;background:rg
 
 /* ── カード・バッジ ───────────────────────── */
 body.shop--apparel .badge{background:var(--fg);color:var(--bg);}
+body.shop--apparel .badge--out{background:#24221E;color:#F5F3EF;}
+body.shop--apparel .badge--low{background:#4A4740;color:#F5F3EF;}
 body.shop--apparel .sw{box-shadow:inset 0 0 0 1px rgba(36,34,30,.2);}
 body.shop--apparel .swatch{box-shadow:inset 0 0 0 1px rgba(36,34,30,.2);}
 body.shop--apparel .swatch.is-on::after{border-color:var(--fg);}

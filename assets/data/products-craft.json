@@ -1,0 +1,967 @@
+[
+ {
+  "slug": "belted-wallet",
+  "id": "LD-WL01",
+  "name": "ベルテッド マルチウォレット シュリンクレザー",
+  "sub": "札・小銭・カードをひとつに",
+  "cat": "wallet",
+  "sub2": "",
+  "tags": [
+   "popular"
+  ],
+  "price": 59400,
+  "sale": null,
+  "stock": "in",
+  "colors": [
+   [
+    "ボルドー",
+    "#5C2130"
+   ],
+   [
+    "チョコレート",
+    "#4A3A2E"
+   ],
+   [
+    "ネイビー",
+    "#23304A"
+   ],
+   [
+    "エトープ",
+    "#9A8B79"
+   ],
+   [
+    "アイボリー",
+    "#E6E0D4"
+   ],
+   [
+    "ローズ",
+    "#C98894"
+   ],
+   [
+    "ブラック",
+    "#1B1A18"
+   ]
+  ],
+  "images": [
+   "assets/img/products/belted-wallet__0.svg",
+   "assets/img/products/belted-wallet__1.svg",
+   "assets/img/products/belted-wallet__2.svg",
+   "assets/img/products/belted-wallet__3.svg",
+   "assets/img/products/belted-wallet__4.svg",
+   "assets/img/products/belted-wallet__5.svg",
+   "assets/img/products/belted-wallet__6.svg"
+  ],
+  "photo": null,
+  "detail": [
+   "札・小銭・カードを1つにまとめたい人のための財布です。札入れ1・小銭入れ1・カードポケット8。",
+   "ベルトで留める形なので、カードを入れても厚みで開いてきません。内側はヌメ革で、使ううちに色が濃くなります。"
+  ],
+  "spec": [
+   [
+    "サイズ",
+    "W 11 × H 9.5 × D 2.5 cm（閉じた状態）"
+   ],
+   [
+    "重さ",
+    "約 130g"
+   ],
+   [
+    "収納",
+    "札入れ1／小銭入れ1／カードポケット8"
+   ],
+   [
+    "素材",
+    "牛革（シュリンクレザー）／内装：ヌメ革"
+   ],
+   [
+    "金具",
+    "真鍮（シルバー仕上げ）"
+   ],
+   [
+    "生産国",
+    "イタリア"
+   ]
+  ]
+ },
+ {
+  "slug": "small-wallet",
+  "id": "LD-WL02",
+  "name": "スモール ウォレット シュリンクレザー",
+  "sub": "手のひらに収まる三つ折り",
+  "cat": "wallet",
+  "sub2": "",
+  "tags": [
+   "popular"
+  ],
+  "price": 49500,
+  "sale": null,
+  "stock": "in",
+  "colors": [
+   [
+    "ブラック",
+    "#1B1A18"
+   ],
+   [
+    "フォレスト",
+    "#3A4A3A"
+   ],
+   [
+    "キャメル",
+    "#A9713B"
+   ],
+   [
+    "ブルーシアン",
+    "#2E8E9E"
+   ],
+   [
+    "グレージュ",
+    "#B9AFA2"
+   ]
+  ],
+  "images": [
+   "assets/img/products/small-wallet__0.svg",
+   "assets/img/products/small-wallet__1.svg",
+   "assets/img/products/small-wallet__2.svg",
+   "assets/img/products/small-wallet__3.svg",
+   "assets/img/products/small-wallet__4.svg"
+  ],
+  "photo": null,
+  "detail": [
+   "手のひらに収まる三つ折り"
+  ],
+  "spec": [
+   [
+    "品番",
+    "LD-WL02"
+   ],
+   [
+    "カラー",
+    "ブラック／フォレスト／キャメル／ブルーシアン／グレージュ"
+   ],
+   [
+    "寸法・素材",
+    "準備中"
+   ],
+   [
+    "生産国",
+    "イタリア"
+   ]
+  ]
+ },
+ {
+  "slug": "envelope-zip",
+  "id": "LD-WL03",
+  "name": "エンベロープ ミニジップウォレット シュリンクレザー",
+  "sub": "封筒のかたちの小さな財布",
+  "cat": "wallet",
+  "sub2": "",
+  "tags": [],
+  "price": 49500,
+  "sale": null,
+  "stock": "in",
+  "colors": [
+   [
+    "グレー",
+    "#7A7772"
+   ],
+   [
+    "ブルーシアン",
+    "#2E8E9E"
+   ],
+   [
+    "ボルドー",
+    "#5C2130"
+   ],
+   [
+    "ブラック",
+    "#1B1A18"
+   ],
+   [
+    "サンド",
+    "#D6C6AE"
+   ]
+  ],
+  "images": [
+   "assets/img/products/envelope-zip__0.svg",
+   "assets/img/products/envelope-zip__1.svg",
+   "assets/img/products/envelope-zip__2.svg",
+   "assets/img/products/envelope-zip__3.svg",
+   "assets/img/products/envelope-zip__4.svg"
+  ],
+  "photo": null,
+  "detail": [
+   "封筒のかたちの小さな財布"
+  ],
+  "spec": [
+   [
+    "品番",
+    "LD-WL03"
+   ],
+   [
+    "カラー",
+    "グレー／ブルーシアン／ボルドー／ブラック／サンド"
+   ],
+   [
+    "寸法・素材",
+    "準備中"
+   ],
+   [
+    "生産国",
+    "イタリア"
+   ]
+  ]
+ },
+ {
+  "slug": "long-wallet",
+  "id": "LD-WL04",
+  "name": "ロング ウォレット スムースレザー",
+  "sub": "札を折らずに持ち歩く",
+  "cat": "wallet",
+  "sub2": "",
+  "tags": [
+   "pickup"
+  ],
+  "price": 79200,
+  "sale": null,
+  "stock": "low",
+  "colors": [
+   [
+    "ブラック",
+    "#1B1A18"
+   ],
+   [
+    "ボルドー",
+    "#5C2130"
+   ],
+   [
+    "ネイビー",
+    "#23304A"
+   ],
+   [
+    "エトープ",
+    "#9A8B79"
+   ]
+  ],
+  "images": [
+   "assets/img/products/long-wallet__0.svg",
+   "assets/img/products/long-wallet__1.svg",
+   "assets/img/products/long-wallet__2.svg",
+   "assets/img/products/long-wallet__3.svg"
+  ],
+  "photo": null,
+  "detail": [
+   "札を折らずに持ち歩く"
+  ],
+  "spec": [
+   [
+    "品番",
+    "LD-WL04"
+   ],
+   [
+    "カラー",
+    "ブラック／ボルドー／ネイビー／エトープ"
+   ],
+   [
+    "寸法・素材",
+    "準備中"
+   ],
+   [
+    "生産国",
+    "イタリア"
+   ]
+  ]
+ },
+ {
+  "slug": "envelope-card",
+  "id": "LD-WL05",
+  "name": "エンベロープ カードケース シュリンクレザー",
+  "sub": "名刺入れにも使える薄型",
+  "cat": "wallet",
+  "sub2": "",
+  "tags": [
+   "popular"
+  ],
+  "price": 26400,
+  "sale": null,
+  "stock": "in",
+  "colors": [
+   [
+    "グレージュ",
+    "#B9AFA2"
+   ],
+   [
+    "ブラック",
+    "#1B1A18"
+   ],
+   [
+    "レッド",
+    "#B3312C"
+   ],
+   [
+    "フォレスト",
+    "#3A4A3A"
+   ],
+   [
+    "マスタード",
+    "#D5A521"
+   ],
+   [
+    "ローズ",
+    "#C98894"
+   ]
+  ],
+  "images": [
+   "assets/img/products/envelope-card__0.svg",
+   "assets/img/products/envelope-card__1.svg",
+   "assets/img/products/envelope-card__2.svg",
+   "assets/img/products/envelope-card__3.svg",
+   "assets/img/products/envelope-card__4.svg",
+   "assets/img/products/envelope-card__5.svg"
+  ],
+  "photo": null,
+  "detail": [
+   "名刺入れにも使える薄型"
+  ],
+  "spec": [
+   [
+    "品番",
+    "LD-WL05"
+   ],
+   [
+    "カラー",
+    "グレージュ／ブラック／レッド／フォレスト／マスタード／ローズ"
+   ],
+   [
+    "寸法・素材",
+    "準備中"
+   ],
+   [
+    "生産国",
+    "イタリア"
+   ]
+  ]
+ },
+ {
+  "slug": "round-coincase",
+  "id": "LD-WL06",
+  "name": "ラウンド コインケース シュリンクレザー",
+  "sub": "丸い小銭入れ",
+  "cat": "wallet",
+  "sub2": "",
+  "tags": [],
+  "price": 8800,
+  "sale": null,
+  "stock": "out",
+  "colors": [
+   [
+    "レッド",
+    "#B3312C"
+   ],
+   [
+    "ブラック",
+    "#1B1A18"
+   ],
+   [
+    "アイボリー",
+    "#E6E0D4"
+   ],
+   [
+    "ブルーシアン",
+    "#2E8E9E"
+   ],
+   [
+    "キャメル",
+    "#A9713B"
+   ],
+   [
+    "ネイビー",
+    "#23304A"
+   ],
+   [
+    "ローズ",
+    "#C98894"
+   ]
+  ],
+  "images": [
+   "assets/img/products/round-coincase__0.svg",
+   "assets/img/products/round-coincase__1.svg",
+   "assets/img/products/round-coincase__2.svg",
+   "assets/img/products/round-coincase__3.svg",
+   "assets/img/products/round-coincase__4.svg",
+   "assets/img/products/round-coincase__5.svg",
+   "assets/img/products/round-coincase__6.svg"
+  ],
+  "photo": null,
+  "detail": [
+   "丸い小銭入れ"
+  ],
+  "spec": [
+   [
+    "品番",
+    "LD-WL06"
+   ],
+   [
+    "カラー",
+    "レッド／ブラック／アイボリー／ブルーシアン／キャメル／ネイビー／ローズ"
+   ],
+   [
+    "寸法・素材",
+    "準備中"
+   ],
+   [
+    "生産国",
+    "イタリア"
+   ]
+  ]
+ },
+ {
+  "slug": "diary-case",
+  "id": "LD-SM01",
+  "name": "ダイアリー型スマートフォンケース シュリンクレザー",
+  "sub": "カードが2枚入る手帳型",
+  "cat": "phone",
+  "sub2": "",
+  "tags": [
+   "pickup"
+  ],
+  "price": 19800,
+  "sale": null,
+  "stock": "in",
+  "colors": [
+   [
+    "ブラック",
+    "#1B1A18"
+   ],
+   [
+    "エトープ",
+    "#9A8B79"
+   ],
+   [
+    "ボルドー",
+    "#5C2130"
+   ],
+   [
+    "ブルーシアン",
+    "#2E8E9E"
+   ],
+   [
+    "アイボリー",
+    "#E6E0D4"
+   ],
+   [
+    "ローズ",
+    "#C98894"
+   ],
+   [
+    "マスタード",
+    "#D5A521"
+   ],
+   [
+    "ネイビー",
+    "#23304A"
+   ]
+  ],
+  "images": [
+   "assets/img/products/diary-case__0.svg",
+   "assets/img/products/diary-case__1.svg",
+   "assets/img/products/diary-case__2.svg",
+   "assets/img/products/diary-case__3.svg",
+   "assets/img/products/diary-case__4.svg",
+   "assets/img/products/diary-case__5.svg",
+   "assets/img/products/diary-case__6.svg",
+   "assets/img/products/diary-case__7.svg"
+  ],
+  "photo": null,
+  "detail": [
+   "カードが2枚入る手帳型"
+  ],
+  "spec": [
+   [
+    "品番",
+    "LD-SM01"
+   ],
+   [
+    "カラー",
+    "ブラック／エトープ／ボルドー／ブルーシアン／アイボリー／ローズ／マスタード／ネイビー"
+   ],
+   [
+    "寸法・素材",
+    "準備中"
+   ],
+   [
+    "生産国",
+    "イタリア"
+   ]
+  ]
+ },
+ {
+  "slug": "back-cover",
+  "id": "LD-SM02",
+  "name": "バックカバー型スマートフォンケース シュリンクレザー",
+  "sub": "薄さを損なわない背面型",
+  "cat": "phone",
+  "sub2": "",
+  "tags": [],
+  "price": 14300,
+  "sale": null,
+  "stock": "in",
+  "colors": [
+   [
+    "ブラック",
+    "#1B1A18"
+   ],
+   [
+    "グレージュ",
+    "#B9AFA2"
+   ],
+   [
+    "キャメル",
+    "#A9713B"
+   ],
+   [
+    "フォレスト",
+    "#3A4A3A"
+   ],
+   [
+    "レッド",
+    "#B3312C"
+   ]
+  ],
+  "images": [
+   "assets/img/products/back-cover__0.svg",
+   "assets/img/products/back-cover__1.svg",
+   "assets/img/products/back-cover__2.svg",
+   "assets/img/products/back-cover__3.svg",
+   "assets/img/products/back-cover__4.svg"
+  ],
+  "photo": null,
+  "detail": [
+   "薄さを損なわない背面型"
+  ],
+  "spec": [
+   [
+    "品番",
+    "LD-SM02"
+   ],
+   [
+    "カラー",
+    "ブラック／グレージュ／キャメル／フォレスト／レッド"
+   ],
+   [
+    "寸法・素材",
+    "準備中"
+   ],
+   [
+    "生産国",
+    "イタリア"
+   ]
+  ]
+ },
+ {
+  "slug": "strap-case",
+  "id": "LD-SM03",
+  "name": "ストラップ付きスマートフォンケース シュリンクレザー",
+  "sub": "肩から下げて手ぶらに",
+  "cat": "phone",
+  "sub2": "",
+  "tags": [
+   "new"
+  ],
+  "price": 24200,
+  "sale": null,
+  "stock": "in",
+  "colors": [
+   [
+    "エトープ",
+    "#9A8B79"
+   ],
+   [
+    "ブラック",
+    "#1B1A18"
+   ],
+   [
+    "ローズ",
+    "#C98894"
+   ],
+   [
+    "ブルーシアン",
+    "#2E8E9E"
+   ]
+  ],
+  "images": [
+   "assets/img/products/strap-case__0.svg",
+   "assets/img/products/strap-case__1.svg",
+   "assets/img/products/strap-case__2.svg",
+   "assets/img/products/strap-case__3.svg"
+  ],
+  "photo": null,
+  "detail": [
+   "肩から下げて手ぶらに"
+  ],
+  "spec": [
+   [
+    "品番",
+    "LD-SM03"
+   ],
+   [
+    "カラー",
+    "エトープ／ブラック／ローズ／ブルーシアン"
+   ],
+   [
+    "寸法・素材",
+    "準備中"
+   ],
+   [
+    "生産国",
+    "イタリア"
+   ]
+  ]
+ },
+ {
+  "slug": "key-case",
+  "id": "LD-LG01",
+  "name": "キーケース シュリンクレザー",
+  "sub": "4連フックの定番",
+  "cat": "leather",
+  "sub2": "",
+  "tags": [],
+  "price": 16500,
+  "sale": null,
+  "stock": "in",
+  "colors": [
+   [
+    "ブラック",
+    "#1B1A18"
+   ],
+   [
+    "ボルドー",
+    "#5C2130"
+   ],
+   [
+    "エトープ",
+    "#9A8B79"
+   ],
+   [
+    "フォレスト",
+    "#3A4A3A"
+   ],
+   [
+    "レッド",
+    "#B3312C"
+   ]
+  ],
+  "images": [
+   "assets/img/products/key-case__0.svg",
+   "assets/img/products/key-case__1.svg",
+   "assets/img/products/key-case__2.svg",
+   "assets/img/products/key-case__3.svg",
+   "assets/img/products/key-case__4.svg"
+  ],
+  "photo": null,
+  "detail": [
+   "4連フックの定番"
+  ],
+  "spec": [
+   [
+    "品番",
+    "LD-LG01"
+   ],
+   [
+    "カラー",
+    "ブラック／ボルドー／エトープ／フォレスト／レッド"
+   ],
+   [
+    "寸法・素材",
+    "準備中"
+   ],
+   [
+    "生産国",
+    "イタリア"
+   ]
+  ]
+ },
+ {
+  "slug": "glasses-case",
+  "id": "LD-LG02",
+  "name": "グラスケース スムースレザー",
+  "sub": "眼鏡を傷つけない起毛の内張り",
+  "cat": "leather",
+  "sub2": "",
+  "tags": [],
+  "price": 22000,
+  "sale": null,
+  "stock": "in",
+  "colors": [
+   [
+    "チョコレート",
+    "#4A3A2E"
+   ],
+   [
+    "ブラック",
+    "#1B1A18"
+   ],
+   [
+    "アイボリー",
+    "#E6E0D4"
+   ]
+  ],
+  "images": [
+   "assets/img/products/glasses-case__0.svg",
+   "assets/img/products/glasses-case__1.svg",
+   "assets/img/products/glasses-case__2.svg"
+  ],
+  "photo": null,
+  "detail": [
+   "眼鏡を傷つけない起毛の内張り"
+  ],
+  "spec": [
+   [
+    "品番",
+    "LD-LG02"
+   ],
+   [
+    "カラー",
+    "チョコレート／ブラック／アイボリー"
+   ],
+   [
+    "寸法・素材",
+    "準備中"
+   ],
+   [
+    "生産国",
+    "イタリア"
+   ]
+  ]
+ },
+ {
+  "slug": "passport-case",
+  "id": "LD-LG03",
+  "name": "パスポートケース シュリンクレザー",
+  "sub": "旅券と搭乗券をまとめて",
+  "cat": "leather",
+  "sub2": "",
+  "tags": [],
+  "price": 27500,
+  "sale": null,
+  "stock": "in",
+  "colors": [
+   [
+    "ネイビー",
+    "#23304A"
+   ],
+   [
+    "ブラック",
+    "#1B1A18"
+   ],
+   [
+    "ボルドー",
+    "#5C2130"
+   ],
+   [
+    "キャメル",
+    "#A9713B"
+   ]
+  ],
+  "images": [
+   "assets/img/products/passport-case__0.svg",
+   "assets/img/products/passport-case__1.svg",
+   "assets/img/products/passport-case__2.svg",
+   "assets/img/products/passport-case__3.svg"
+  ],
+  "photo": null,
+  "detail": [
+   "旅券と搭乗券をまとめて"
+  ],
+  "spec": [
+   [
+    "品番",
+    "LD-LG03"
+   ],
+   [
+    "カラー",
+    "ネイビー／ブラック／ボルドー／キャメル"
+   ],
+   [
+    "寸法・素材",
+    "準備中"
+   ],
+   [
+    "生産国",
+    "イタリア"
+   ]
+  ]
+ },
+ {
+  "slug": "charm-heart",
+  "id": "LD-LG04",
+  "name": "ハート キーホルダー シュリンクレザー",
+  "sub": "贈りものにも",
+  "cat": "leather",
+  "sub2": "",
+  "tags": [
+   "popular"
+  ],
+  "price": 7700,
+  "sale": null,
+  "stock": "in",
+  "colors": [
+   [
+    "レッド",
+    "#B3312C"
+   ],
+   [
+    "ローズ",
+    "#C98894"
+   ],
+   [
+    "ブラック",
+    "#1B1A18"
+   ],
+   [
+    "マスタード",
+    "#D5A521"
+   ],
+   [
+    "ブルーシアン",
+    "#2E8E9E"
+   ]
+  ],
+  "images": [
+   "assets/img/products/charm-heart__0.svg",
+   "assets/img/products/charm-heart__1.svg",
+   "assets/img/products/charm-heart__2.svg",
+   "assets/img/products/charm-heart__3.svg",
+   "assets/img/products/charm-heart__4.svg"
+  ],
+  "photo": null,
+  "detail": [
+   "贈りものにも"
+  ],
+  "spec": [
+   [
+    "品番",
+    "LD-LG04"
+   ],
+   [
+    "カラー",
+    "レッド／ローズ／ブラック／マスタード／ブルーシアン"
+   ],
+   [
+    "寸法・素材",
+    "準備中"
+   ],
+   [
+    "生産国",
+    "イタリア"
+   ]
+  ]
+ },
+ {
+  "slug": "trolley-55",
+  "id": "LD-TR01",
+  "name": "トロリーケース 55L ポリカーボネート×レザー",
+  "sub": "3〜5泊。革のハンドル付き",
+  "cat": "travel",
+  "sub2": "",
+  "tags": [],
+  "price": 198000,
+  "sale": null,
+  "stock": "in",
+  "colors": [
+   [
+    "アイボリー",
+    "#E6E0D4"
+   ],
+   [
+    "ブラック",
+    "#1B1A18"
+   ],
+   [
+    "ネイビー",
+    "#23304A"
+   ],
+   [
+    "エトープ",
+    "#9A8B79"
+   ]
+  ],
+  "images": [
+   "assets/img/products/trolley-55__0.svg",
+   "assets/img/products/trolley-55__1.svg",
+   "assets/img/products/trolley-55__2.svg",
+   "assets/img/products/trolley-55__3.svg"
+  ],
+  "photo": null,
+  "detail": [
+   "3〜5泊。革のハンドル付き"
+  ],
+  "spec": [
+   [
+    "品番",
+    "LD-TR01"
+   ],
+   [
+    "カラー",
+    "アイボリー／ブラック／ネイビー／エトープ"
+   ],
+   [
+    "寸法・素材",
+    "準備中"
+   ],
+   [
+    "生産国",
+    "イタリア"
+   ]
+  ]
+ },
+ {
+  "slug": "garment-case",
+  "id": "LD-TR02",
+  "name": "ガーメントケース レザー",
+  "sub": "ジャケットを畳まずに運ぶ",
+  "cat": "travel",
+  "sub2": "",
+  "tags": [
+   "new"
+  ],
+  "price": 143000,
+  "sale": null,
+  "stock": "in",
+  "colors": [
+   [
+    "ブラック",
+    "#1B1A18"
+   ],
+   [
+    "チョコレート",
+    "#4A3A2E"
+   ]
+  ],
+  "images": [
+   "assets/img/products/garment-case__0.svg",
+   "assets/img/products/garment-case__1.svg"
+  ],
+  "photo": null,
+  "detail": [
+   "ジャケットを畳まずに運ぶ"
+  ],
+  "spec": [
+   [
+    "品番",
+    "LD-TR02"
+   ],
+   [
+    "カラー",
+    "ブラック／チョコレート"
+   ],
+   [
+    "寸法・素材",
+    "準備中"
+   ],
+   [
+    "生産国",
+    "イタリア"
+   ]
+  ]
+ }
+]
