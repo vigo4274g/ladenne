@@ -151,7 +151,7 @@ p{margin:0;}
    ========================================================= */
 .entry{min-height:100svh;display:flex;flex-direction:column;justify-content:center;padding:40px 0 28px;}
 .entry__mark{text-align:center;padding:0 var(--page-pad) 40px;}
-.entry__logo{height:30px;width:auto;margin-inline:auto;}
+.entry__logo{height:76px;width:auto;margin-inline:auto;}  /* 入口は大きく見せる */
 .entry__logotext{
   font-family:var(--font-head);font-size:30px;line-height:1;letter-spacing:.34em;text-indent:.34em;
   background:var(--chrome);-webkit-background-clip:text;background-clip:text;color:transparent;
@@ -223,7 +223,7 @@ p{margin:0;}
   font-size:9px;line-height:15px;text-align:center;letter-spacing:0;
 }
 .logo{display:block;text-align:center;}
-.logo__img{height:24px;width:auto;margin-inline:auto;}
+.logo__img{height:56px;width:auto;margin-inline:auto;}   /* ロゴは星が上下に飛び出すので、文字が読める高さが要る */
 .logo__text{
   font-family:var(--font-head);font-size:23px;line-height:1;letter-spacing:.3em;text-indent:.3em;
   white-space:nowrap;
