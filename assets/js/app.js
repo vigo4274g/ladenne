@@ -280,6 +280,17 @@ const productPage = (() => {
     }
     $('[data-ship]')?.toggleAttribute('hidden', out);
 
+    // バッグ・ポーチにはサイズ（S/M/L/XL）を出さない
+    const sizeBox = document.querySelector('[data-sizes]')?.closest('.pdp__opt');
+    if (sizeBox) {
+      const noSize = p.sub2 === 'bag' || p.cat !== 'apparel';
+      sizeBox.hidden = noSize;
+      const sn = document.querySelector('[data-sizename]');
+      if (sn && noSize) sn.textContent = '';
+      const link = document.querySelector('.pdp__size a');
+      if (link) link.textContent = noSize ? '寸法を見る' : 'サイズを見る';
+    }
+
     // 商品詳細・サイズ・素材もその商品のものにする
     const det = $('[data-detail]');
     if (det && p.detail) det.innerHTML = p.detail.map((x, i) => `<p${i ? ' style="margin-top:14px"' : ''}>${x}</p>`).join('');
@@ -420,4 +431,15 @@ $$('[data-newsletter], [data-contact]').forEach(f => f.addEventListener('submit'
   alert('送信先はまだ接続していません。\n本番では配信サービス／フォーム送信先を設定します。');
 }));
 
+})();
+
+
+/* お届け予定日（今日から3〜5日後）── 固定日付だと日が経つと過去になるため */
+(function shipEstimate(){
+  const el = document.querySelector('[data-ship-est]');
+  if (!el) return;
+  const W = ['日','月','火','水','木','金','土'];
+  const f = d => `${d.getMonth()+1}月${d.getDate()}日(${W[d.getDay()]})`;
+  const add = n => { const d = new Date(); d.setDate(d.getDate()+n); return d; };
+  el.textContent = `${f(add(3))} 〜 ${f(add(5))} にお届け予定`;
 })();
