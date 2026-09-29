@@ -15,27 +15,12 @@
   "stock": "in",
   "colors": [
    [
-    "ブラック",
-    "#1B1A18"
-   ],
-   [
-    "チョコレート",
-    "#4A3A2E"
-   ],
-   [
-    "ネイビー",
-    "#23304A"
-   ],
-   [
-    "ボルドー",
-    "#5C2130"
+    "ブラウン",
+    "#8A5A36"
    ]
   ],
   "images": [
-   "assets/img/products/card-case__0.svg",
-   "assets/img/products/card-case__1.svg",
-   "assets/img/products/card-case__2.svg",
-   "assets/img/products/card-case__3.svg"
+   "assets/img/products/card-case__0.svg"
   ],
   "photo": null,
   "detail": [
@@ -139,22 +124,12 @@
   "stock": "in",
   "colors": [
    [
-    "ブラック",
-    "#1B1A18"
-   ],
-   [
-    "キャメル",
-    "#A9713B"
-   ],
-   [
-    "ネイビー",
-    "#23304A"
+    "ブラウン",
+    "#8A5A36"
    ]
   ],
   "images": [
-   "assets/img/products/device-case__0.svg",
-   "assets/img/products/device-case__1.svg",
-   "assets/img/products/device-case__2.svg"
+   "assets/img/products/device-case__0.svg"
   ],
   "photo": null,
   "detail": [
@@ -167,7 +142,7 @@
    ],
    [
     "カラー",
-    "ブラック／キャメル／ネイビー"
+    "ブラウン"
    ],
    [
     "寸法・素材",
@@ -194,22 +169,12 @@
   "stock": "in",
   "colors": [
    [
-    "ブラック",
-    "#1B1A18"
-   ],
-   [
-    "レッド",
-    "#B3312C"
-   ],
-   [
-    "キャメル",
-    "#A9713B"
+    "ヌメ",
+    "#C08A5E"
    ]
   ],
   "images": [
-   "assets/img/products/key-holder__0.svg",
-   "assets/img/products/key-holder__1.svg",
-   "assets/img/products/key-holder__2.svg"
+   "assets/img/products/key-holder__0.svg"
   ],
   "photo": null,
   "detail": [
@@ -222,7 +187,7 @@
    ],
    [
     "カラー",
-    "ブラック／レッド／キャメル"
+    "ヌメ"
    ],
    [
     "寸法・素材",

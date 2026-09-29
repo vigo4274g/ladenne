@@ -15,27 +15,17 @@
   "stock": "in",
   "colors": [
    [
-    "グレー",
-    "#7A7772"
-   ],
-   [
     "ブラック",
     "#1B1A18"
    ],
    [
-    "アイボリー",
-    "#E6E0D4"
-   ],
-   [
-    "ネイビー",
-    "#23304A"
+    "グレー",
+    "#7A7772"
    ]
   ],
   "images": [
    "assets/img/products/hoodie__0.svg",
-   "assets/img/products/hoodie__1.svg",
-   "assets/img/products/hoodie__2.svg",
-   "assets/img/products/hoodie__3.svg"
+   "assets/img/products/hoodie__1.svg"
   ],
   "photo": null,
   "detail": [
@@ -84,22 +74,12 @@
   "stock": "in",
   "colors": [
    [
-    "アイボリー",
-    "#E6E0D4"
-   ],
-   [
-    "ブラック",
-    "#1B1A18"
-   ],
-   [
-    "グレー",
-    "#7A7772"
+    "ホワイト",
+    "#F2F0EC"
    ]
   ],
   "images": [
-   "assets/img/products/long-tee__0.svg",
-   "assets/img/products/long-tee__1.svg",
-   "assets/img/products/long-tee__2.svg"
+   "assets/img/products/long-tee__0.svg"
   ],
   "photo": null,
   "detail": [
@@ -112,7 +92,7 @@
    ],
    [
     "カラー",
-    "アイボリー／ブラック／グレー"
+    "ホワイト"
    ],
    [
     "サイズ",
@@ -145,20 +125,10 @@
    [
     "ブラック",
     "#1B1A18"
-   ],
-   [
-    "アイボリー",
-    "#E6E0D4"
-   ],
-   [
-    "サンド",
-    "#D6C6AE"
    ]
   ],
   "images": [
-   "assets/img/products/basic-pouch__0.svg",
-   "assets/img/products/basic-pouch__1.svg",
-   "assets/img/products/basic-pouch__2.svg"
+   "assets/img/products/basic-pouch__0.svg"
   ],
   "photo": null,
   "detail": [
@@ -171,7 +141,7 @@
    ],
    [
     "カラー",
-    "ブラック／アイボリー／サンド"
+    "ブラック"
    ],
    [
     "サイズ",
@@ -203,22 +173,12 @@
   "stock": "in",
   "colors": [
    [
-    "アイボリー",
-    "#E6E0D4"
-   ],
-   [
     "ブラック",
     "#1B1A18"
-   ],
-   [
-    "サンド",
-    "#D6C6AE"
    ]
   ],
   "images": [
-   "assets/img/products/tote-bag__0.svg",
-   "assets/img/products/tote-bag__1.svg",
-   "assets/img/products/tote-bag__2.svg"
+   "assets/img/products/tote-bag__0.svg"
   ],
   "photo": null,
   "detail": [
@@ -231,7 +191,7 @@
    ],
    [
     "カラー",
-    "アイボリー／ブラック／サンド"
+    "ブラック"
    ],
    [
     "サイズ",
