@@ -160,9 +160,9 @@ $('[data-add-to-cart]')?.addEventListener('click', function () {
         <div style="font-size:12px;white-space:nowrap">${yen(i.price * i.qty)}</div>
       </div>`).join('');
     const sub = cart.reduce((a, i) => a + i.price * i.qty, 0);
-    const ship = sub === 0 ? 0 : (sub >= 5000 ? 0 : 770);
+    const ship = 0;   // 送料はご注文手続き（Shopifyの決済画面）で確定する
     $('[data-sub]').textContent   = yen(sub);
-    $('[data-ship]').textContent  = sub === 0 ? '—' : (ship === 0 ? '無料' : yen(ship));
+    $('[data-ship]').textContent  = sub === 0 ? '—' : 'ご注文手続きで確定';
     $('[data-total]').textContent = yen(sub + ship);
   };
   rows.addEventListener('click', e => {
