@@ -185,19 +185,21 @@ $('[data-add-to-cart]')?.addEventListener('click', function () {
    今は assets/data/products-<店>.json を読んでいる。
    本番で管理画面（microCMS）や Shopify に繋ぐときは、
    FEED_URL を変えて、返す形をこの JSON と同じにするだけでよい。
-     { slug, name, price, sale, stock:'in'|'low'|'out', images:[...] }
+     { slug, name, price, sale, stock:'in'|'low'|'out'|'soon', images:[...] }
    JS や通信が失敗しても、HTML には最初から正しい中身が出ている。
    ========================================================= */
 const IN_SHOP = /\/(craft|apparel)\//.test(location.pathname);
 const ASSETS  = IN_SHOP ? '../' : '';
 const FEED_URL = ASSETS + 'assets/data/products-' + SHOP + '.json';
 
-const STOCK_LABEL = { low:'残りわずか', out:'SOLD OUT' };
+const STOCK_LABEL = { low:'残りわずか', out:'SOLD OUT', soon:'近日公開' };
 const priceHTML = p => p.sale && p.sale < p.price
   ? `<s>${yen(p.price)}</s><em data-price>${yen(p.sale)}</em>`
   : `<span data-price>${yen(p.price)}</span>`;
+// 近日公開は値段を出さない（まだ決まっていない）
 const badgeHTML = p =>
-    p.stock === 'out' ? '<span class="badge badge--out">SOLD OUT</span>'
+    p.stock === 'soon' ? '<span class="badge badge--soon">近日公開</span>'
+  : p.stock === 'out' ? '<span class="badge badge--out">SOLD OUT</span>'
   : p.sale            ? '<span class="badge badge--sale">SALE</span>'
   : p.stock === 'low' ? '<span class="badge badge--low">残りわずか</span>'
   : (p.tags || []).includes('new') ? '<span class="badge">New</span>' : '';
@@ -209,8 +211,9 @@ function paintCards(db) {
     if (!p) return;
     card.dataset.stock = p.stock;
     card.classList.toggle('is-soldout', p.stock === 'out');
+    card.classList.toggle('is-soon', p.stock === 'soon');
     const slot = card.querySelector('[data-price-slot]');
-    if (slot) slot.innerHTML = priceHTML(p);
+    if (slot) slot.innerHTML = p.stock === 'soon' ? '<span class="soon-note">近日公開</span>' : priceHTML(p);
     const media = card.querySelector('.pcard__media');
     if (media) {
       media.querySelector('.badge')?.remove();
@@ -249,7 +252,9 @@ const productPage = (() => {
     document.title = p.name + '｜LADENNE.';
 
     const slot = $('[data-price-slot]');
-    if (slot) slot.innerHTML = priceHTML(p) + '<small>税込</small>';
+    if (slot) slot.innerHTML = p.stock === 'soon'
+      ? '<span class="soon-note">近日公開</span>'
+      : priceHTML(p) + '<small>税込</small>';
 
     // カラー見本を作り直す
     const row = $('[data-swatches]');
@@ -269,14 +274,17 @@ const productPage = (() => {
     const note = $('[data-stock-note]');
     const cta  = $('[data-add-to-cart]');
     const out  = p.stock === 'out';
+    const soon = p.stock === 'soon';
     if (note) {
-      note.textContent = STOCK_LABEL[p.stock] ? (out ? '申し訳ありません。ただいま品切れです。' : '残りわずかです。') : '';
+      note.textContent = soon ? 'ただいま準備中です。近日公開します。'
+        : out ? '申し訳ありません。ただいま品切れです。'
+        : STOCK_LABEL[p.stock] ? '残りわずかです。' : '';
       note.hidden = !STOCK_LABEL[p.stock];
-      note.classList.toggle('is-out', out);
+      note.classList.toggle('is-out', out || soon);
     }
     if (cta) {
-      cta.disabled = out;
-      cta.textContent = out ? 'SOLD OUT' : 'カートに追加する';
+      cta.disabled = out || soon;
+      cta.textContent = soon ? '近日公開' : out ? 'SOLD OUT' : 'カートに追加する';
     }
     $('[data-ship]')?.toggleAttribute('hidden', out);
 

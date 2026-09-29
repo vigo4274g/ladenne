@@ -66,7 +66,7 @@
   ],
   "price": 6600,
   "sale": null,
-  "stock": "in",
+  "stock": "soon",
   "colors": [
    [
     "ブラック",
@@ -211,7 +211,7 @@
   ],
   "price": 1650,
   "sale": null,
-  "stock": "in",
+  "stock": "soon",
   "colors": [
    [
     "ブラック",
@@ -243,6 +243,96 @@
    [
     "カラー",
     "ブラック／チョコレート／キャメル"
+   ],
+   [
+    "寸法・素材",
+    "準備中"
+   ],
+   [
+    "生産国",
+    "イタリア"
+   ]
+  ]
+ },
+ {
+  "slug": "coin-triangle",
+  "id": "LD-C06",
+  "name": "コインケース（三角）",
+  "sub": "小銭がひとまとめに収まる",
+  "cat": "leather",
+  "sub2": "",
+  "tags": [
+   "new"
+  ],
+  "price": 0,
+  "sale": null,
+  "stock": "soon",
+  "colors": [
+   [
+    "ブラック",
+    "#1B1A18"
+   ]
+  ],
+  "images": [
+   "assets/img/products/coin-triangle__0.svg"
+  ],
+  "photo": null,
+  "detail": [
+   "小銭がひとまとめに収まる"
+  ],
+  "spec": [
+   [
+    "品番",
+    "LD-C06"
+   ],
+   [
+    "カラー",
+    "ブラック"
+   ],
+   [
+    "寸法・素材",
+    "準備中"
+   ],
+   [
+    "生産国",
+    "イタリア"
+   ]
+  ]
+ },
+ {
+  "slug": "coin-square",
+  "id": "LD-C07",
+  "name": "コインケース（四角）",
+  "sub": "四隅を留める、手のひらの小銭入れ",
+  "cat": "leather",
+  "sub2": "",
+  "tags": [
+   "new"
+  ],
+  "price": 0,
+  "sale": null,
+  "stock": "soon",
+  "colors": [
+   [
+    "ブラウン",
+    "#8A5A36"
+   ]
+  ],
+  "images": [
+   "assets/img/products/coin-square__0.svg"
+  ],
+  "photo": null,
+  "detail": [
+   "四隅を留める、手のひらの小銭入れ"
+  ],
+  "spec": [
+   [
+    "品番",
+    "LD-C07"
+   ],
+   [
+    "カラー",
+    "ブラウン"
    ],
    [
     "寸法・素材",

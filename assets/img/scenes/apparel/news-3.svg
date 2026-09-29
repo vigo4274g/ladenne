@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1002 639" width="1002" height="639" role="img" aria-label="news-3">
 <title>news-3</title>
 <defs>
-  <linearGradient id="bgejgal" x1="6%" y1="0%" x2="94%" y2="100%">
+  <linearGradient id="bgcbese" x1="6%" y1="0%" x2="94%" y2="100%">
     <stop offset="0%" stop-color="#F0EDE7"/><stop offset="100%" stop-color="#E2DED6"/>
   </linearGradient>
-  <radialGradient id="glejgal" cx="30%" cy="18%" r="66%">
+  <radialGradient id="glcbese" cx="30%" cy="18%" r="66%">
     <stop offset="0%" stop-color="#FFFFFF" stop-opacity=".30"/><stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
   </radialGradient>
-  <radialGradient id="vgejgal" cx="50%" cy="46%" r="72%">
+  <radialGradient id="vgcbese" cx="50%" cy="46%" r="72%">
     <stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".10"/>
   </radialGradient>
-  <filter id="grejgal"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" seed="11"/>
+  <filter id="grcbese"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" seed="30"/>
     <feColorMatrix type="saturate" values="0"/></filter>
-  <filter id="sfejgal" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="18"/></filter>
+  <filter id="sfcbese" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="18"/></filter>
   <linearGradient id="lg" x1="16%" y1="4%" x2="86%" y2="100%">
     <stop offset="0%" stop-color="#d7d1c8"/><stop offset="50%" stop-color="#CAC3B6"/><stop offset="100%" stop-color="#6f6b64"/>
   </linearGradient>
@@ -25,14 +25,14 @@
   </linearGradient>
 </defs>
 <style>svg{--dk:#6f6b64;--st:#dfdbd3;--bg2:#E2DED6}</style>
-<rect width="1002" height="639" fill="url(#bgejgal)"/>
-<rect width="1002" height="639" fill="url(#glejgal)"/>
+<rect width="1002" height="639" fill="url(#bgcbese)"/>
+<rect width="1002" height="639" fill="url(#glcbese)"/>
 
 
   <path d="M120.24 0 L460.92 0 L180.35999999999999 639 L-160.32 639 Z" fill="#F0E4CC" fill-opacity=".05"/>
   <path d="M581.16 0 L701.4 0 L440.88 639 L320.64 639 Z" fill="#F0E4CC" fill-opacity=".035"/>
 
 
-<rect width="1002" height="639" filter="url(#grejgal)" opacity=".06" style="mix-blend-mode:overlay"/>
-<rect width="1002" height="639" fill="url(#vgejgal)"/>
+<rect width="1002" height="639" filter="url(#grcbese)" opacity=".06" style="mix-blend-mode:overlay"/>
+<rect width="1002" height="639" fill="url(#vgcbese)"/>
 </svg>

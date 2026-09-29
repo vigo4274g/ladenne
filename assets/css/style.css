@@ -856,3 +856,9 @@ body.shop--apparel .nl__inner .lead{color:rgba(255,255,255,.9);text-shadow:0 1px
 body.shop--apparel .nl__form input{background:rgba(255,255,255,.95);}
 
 body.shop--apparel .cat-hero::after{background:linear-gradient(180deg,rgba(20,18,16,.12),rgba(20,18,16,.38));}
+
+/* ── 近日公開（写真や値段がまだ決まっていない商品） ── */
+.badge--soon{background:rgba(255,255,255,.14);color:var(--fg);border:1px solid rgba(255,255,255,.3);}
+body.is-light .badge--soon,.shop-apparel .badge--soon{background:rgba(0,0,0,.06);border-color:rgba(0,0,0,.18);}
+.soon-note{font-size:11px;letter-spacing:.14em;color:var(--fg-muted);}
+.pcard.is-soon .pcard__media img{opacity:.55;}
