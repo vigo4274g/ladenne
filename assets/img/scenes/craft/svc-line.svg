@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 660" width="880" height="660" role="img" aria-label="svc-line">
 <title>svc-line</title>
 <defs>
-  <linearGradient id="bgh32p3" x1="6%" y1="0%" x2="94%" y2="100%">
+  <linearGradient id="bgzi9cf" x1="6%" y1="0%" x2="94%" y2="100%">
     <stop offset="0%" stop-color="#333538"/><stop offset="100%" stop-color="#1C1F22"/>
   </linearGradient>
-  <radialGradient id="glh32p3" cx="30%" cy="18%" r="66%">
+  <radialGradient id="glzi9cf" cx="30%" cy="18%" r="66%">
     <stop offset="0%" stop-color="#D3C3A6" stop-opacity=".30"/><stop offset="100%" stop-color="#D3C3A6" stop-opacity="0"/>
   </radialGradient>
-  <radialGradient id="vgh32p3" cx="50%" cy="46%" r="72%">
+  <radialGradient id="vgzi9cf" cx="50%" cy="46%" r="72%">
     <stop offset="55%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity=".55"/>
   </radialGradient>
-  <filter id="grh32p3"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" seed="56"/>
+  <filter id="grzi9cf"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="4" seed="24"/>
     <feColorMatrix type="saturate" values="0"/></filter>
-  <filter id="sfh32p3" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="18"/></filter>
+  <filter id="sfzi9cf" x="-25%" y="-25%" width="150%" height="150%"><feColorMatrix type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 0"/><feGaussianBlur stdDeviation="18"/></filter>
   <linearGradient id="lg" x1="16%" y1="4%" x2="86%" y2="100%">
     <stop offset="0%" stop-color="#8f959b"/><stop offset="50%" stop-color="#6C737B"/><stop offset="100%" stop-color="#3b3f44"/>
   </linearGradient>
@@ -25,12 +25,12 @@
   </linearGradient>
 </defs>
 <style>svg{--dk:#3b3f44;--st:#a7abb0;--bg2:#1C1F22}</style>
-<rect width="880" height="660" fill="url(#bgh32p3)"/>
-<rect width="880" height="660" fill="url(#glh32p3)"/>
+<rect width="880" height="660" fill="url(#bgzi9cf)"/>
+<rect width="880" height="660" fill="url(#glzi9cf)"/>
 
 
 
 
-<rect width="880" height="660" filter="url(#grh32p3)" opacity=".10" style="mix-blend-mode:overlay"/>
-<rect width="880" height="660" fill="url(#vgh32p3)"/>
+<rect width="880" height="660" filter="url(#grzi9cf)" opacity=".10" style="mix-blend-mode:overlay"/>
+<rect width="880" height="660" fill="url(#vgzi9cf)"/>
 </svg>
